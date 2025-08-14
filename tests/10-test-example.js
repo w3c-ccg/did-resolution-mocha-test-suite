@@ -4,30 +4,37 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 import * as chai from 'chai';
+import dids from './dids.json' with { type: 'json' };
 import {filterByTag} from 'vc-test-suite-implementations';
 import {helpers} from 'mocha-w3c-interop-reporter';
 
 const should = chai.should();
 
-const tag = 'BitstringStatusList';
-const {match} = filterByTag({tags: [tag]});
+const tag = 'did-resolution';
+const {match} = filterByTag({tags: [tag], property: 'didResolvers'});
 
 describe('Example Test Suite', function() {
   helpers.setupMatrix.call(this, match);
-  for(const [name] of match) {
+  for(const [name, implementation] of match) {
     describe(name, function() {
       beforeEach(helpers.setupRow);
-      it('should pass a basic test', function() {
-        const expected = 42;
-        const actual = 40 + 2;
-        actual.should.equal(expected);
-      });
 
-      it('should fail a basic test', function() {
-        const expected = 42;
-        const actual = 40 + 1; // This will fail
-        actual.should.equal(expected);
-      });
+      for(const did of dids) {
+        it(did, async function() {
+          const endpoint = implementation.settings.didResolvers[0].endpoint;
+          const url = `${endpoint}/${did}`;
+          const rv = await fetch(url);
+          rv.ok.should.be.true;
+          rv.status.should.equal(200);
+          rv.headers.get('content-type')
+            .should.include('application/did-resolution');
+          const doc = await rv.json();
+          doc.should.have.property('didResolutionMetadata');
+          doc.should.have.property('didDocument');
+          doc.didDocument.id.should.equal(did);
+          doc.should.have.property('didDocumentMetadata');
+        });
+      }
     });
   }
 });
