@@ -28,6 +28,7 @@ describe('Example Test Suite', function() {
           const endpoint = implementation.settings.didResolvers[0].endpoint;
           const url = `${endpoint}/${did}`;
           const rv = await fetch(url);
+          // TODO: should we test if failures are handled correctly here also?
           rv.ok.should.be.true;
           rv.status.should.equal(200);
           rv.headers.get('content-type')
