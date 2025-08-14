@@ -30,7 +30,7 @@
     "mocha-w3c-interop-reporter": "github:w3c-ccg/mocha-w3c-interop-reporter#v1.11.0",
     "chai": "^5.2.1",
     "mocha": "11.7.0",
-    "vc-test-suite-implementations": "github:w3c/vc-test-suite-implementations"
+    "vc-test-suite-implementations": "github:w3c-ccg/vc-test-suite-implementations"
   },
   "devDependencies": {
     "eslint": "^8.55.0",
