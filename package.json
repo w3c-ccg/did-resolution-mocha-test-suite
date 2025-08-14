@@ -27,7 +27,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "mocha-w3c-interop-reporter": "github:digitalbazaar/mocha-w3c-interop-reporter#v1.11.0",
+    "mocha-w3c-interop-reporter": "github:w3c-ccg/mocha-w3c-interop-reporter#v1.11.0",
     "chai": "^5.2.1",
     "mocha": "11.7.0",
     "vc-test-suite-implementations": "github:w3c/vc-test-suite-implementations"
