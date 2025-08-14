@@ -29,6 +29,7 @@ jobs:
     - name: Run eslint
       run: npm run lint
   test-node:
+    needs: lint
     permissions:
       contents: write
       pages: write
