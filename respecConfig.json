@@ -1,9 +1,9 @@
 {
   "specStatus": "unofficial",
-  "shortName": "${repo_name}",
-  "subtitle": "Interoperability Report for ${title}",
-  "github": "https://github.com/${org}/${repo_name}",
-  "edDraftURI": "https://${org}.github.io/${repo_name}/",
+  "shortName": "did-resolution-mocha-test-suite",
+  "subtitle": "Interoperability Report for DID Resolution Test Suite",
+  "github": "https://github.com/w3c-ccg/did-resolution-mocha-test-suite",
+  "edDraftURI": "https://w3c-ccg.github.io/did-resolution-mocha-test-suite/",
   "doJsonLd": true,
   "includePermalinks": false,
   "editors": [],

@@ -1,7 +1,7 @@
 {
-  "name": "${repo_name}",
+  "name": "did-resolution-mocha-test-suite",
   "version": "0.1.0",
-  "description": "A test suite for the ${repo_name} using Mocha and Chai",
+  "description": "A test suite for the did-resolution-mocha-test-suite using Mocha and Chai",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/${org}/${repo_name}.git"
+    "url": "git+https://github.com/w3c-ccg/did-resolution-mocha-test-suite.git"
   },
   "keywords": [
     "W3C",
@@ -39,7 +39,7 @@
     "eslint-plugin-unicorn": "^49.0.0"
   },
   "bugs": {
-    "url": "https://github.com/${org}/${repo_name}/issues"
+    "url": "https://github.com/w3c-ccg/did-resolution-mocha-test-suite/issues"
   },
-  "homepage": "https://github.com/${org}/${repo_name}#readme"
+  "homepage": "https://github.com/w3c-ccg/did-resolution-mocha-test-suite#readme"
 }

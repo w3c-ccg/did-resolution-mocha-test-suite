@@ -1,6 +1,6 @@
 reporter: "mocha-w3c-interop-reporter"
 reporterOptions:
-  - 'title=${title}'
+  - 'title=DID Resolution Test Suite'
   - 'abstract=./abstract.hbs'
   - 'reportDir=./reports'
   - 'respec=./respecConfig.json'

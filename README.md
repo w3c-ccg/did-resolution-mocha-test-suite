@@ -1,16 +1,4 @@
-> [!WARNING]
-> This is a template repository. The following README contents are for the final
-> updated repository based on this template.
->
-> After creating a new repository from this template, run...
-> ```sh
-> $ ./populate-templates.js org=<org> repo_name=<repo_name> title=<title>
-> ```
->
-> The contents below should be updated by hand to match the tests once they are
-> written. This warning should also be removed.
-
-# ${title} Test Suite
+# DID Resolution Test Suite
 
 ## Table of Contents
 
@@ -23,7 +11,7 @@
 
 ## Background
 
-Provides interoperability tests for...
+Provides interoperability tests for the [DID Resolution specification](https://www.w3.org/TR/did-resolution/)
 
 ## Install
 
@@ -45,8 +33,8 @@ https://github.com/w3c-ccg/vc-test-suite-implementations
 To add your implementation to this test suite,
 [follow the instructions there.](https://github.com/w3c-ccg/vc-test-suite-implementations?tab=readme-ov-file#adding-a-new-implementation)
 
-This specific test suites needs a `${key}` section defined where implementation
-endpoints are tagged with `${tag}`.
+This specific test suites needs a `didResolvers` section defined where implementation
+endpoints are tagged with `did-resolution`.
 
 ```js
   "issuers": [{
@@ -55,10 +43,10 @@ endpoints are tagged with `${tag}`.
   "verifiers": [{
     // ... verifier settings here
   }],
-  "${key}": [{
+  "didResolvers": [{
     "id": "..."
     "endpoint": "...",
-    "tags": ["${tag}"]
+    "tags": ["did-resolution"]
   }]
 ```
 
