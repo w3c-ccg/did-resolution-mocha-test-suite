@@ -1,0 +1,11 @@
+{
+  "specStatus": "unofficial",
+  "shortName": "${repo_name}",
+  "subtitle": "Interoperability Report for ${title}",
+  "github": "https://github.com/${org}/${repo_name}",
+  "edDraftURI": "https://${org}.github.io/${repo_name}/",
+  "doJsonLd": true,
+  "includePermalinks": false,
+  "editors": [],
+  "authors": []
+}

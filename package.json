@@ -1,0 +1,45 @@
+{
+  "name": "${repo_name}",
+  "version": "0.1.0",
+  "description": "A test suite for the ${repo_name} using Mocha and Chai",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests/ --timeout 15000",
+    "test:withparams": "mocha tests/ --timeout 15000 --reporter mocha-w3c-interop-reporter --reporter-options title=\"Template Test Suite\",abstract=./abstract.hbs,reportDir=./reports,respec=./respecConfig.json,suiteLog=./suite.log,templateData=./reports/index.json",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/${org}/${repo_name}.git"
+  },
+  "keywords": [
+    "W3C",
+    "Test",
+    "Reporter"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "https://digitalbazaar.com/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "mocha-w3c-interop-reporter": "github:digitalbazaar/mocha-w3c-interop-reporter#v1.11.0",
+    "chai": "^5.2.1",
+    "mocha": "11.7.0",
+    "vc-test-suite-implementations": "github:w3c/vc-test-suite-implementations"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-digitalbazaar": "^5.0.1",
+    "eslint-plugin-jsdoc": "^46.9.1",
+    "eslint-plugin-unicorn": "^49.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/${org}/${repo_name}/issues"
+  },
+  "homepage": "https://github.com/${org}/${repo_name}#readme"
+}

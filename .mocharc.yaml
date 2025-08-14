@@ -1,0 +1,8 @@
+reporter: "mocha-w3c-interop-reporter"
+reporterOptions:
+  - 'title=${title}'
+  - 'abstract=./abstract.hbs'
+  - 'reportDir=./reports'
+  - 'respec=./respecConfig.json'
+  - 'suiteLog=./suite.log'
+  - 'templateData=./reports/index.json'
