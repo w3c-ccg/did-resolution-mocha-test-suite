@@ -1,0 +1,71 @@
+{
+  "matrices": [
+    {
+      "title": "Example Test Suite",
+      "ctx": null,
+      "suites": [],
+      "root": false,
+      "pending": false,
+      "_retries": -1,
+      "_beforeEach": [],
+      "_beforeAll": [],
+      "_afterEach": [],
+      "_afterAll": [],
+      "_timeout": 15000,
+      "_slow": 75,
+      "_bail": false,
+      "_onlyTests": [],
+      "_onlySuites": [],
+      "delayed": false,
+      "parent": "EBrGAfEeVPleIYo_e6dax",
+      "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-test-example.js",
+      "matrix": true,
+      "report": true,
+      "rowLabel": "Test Name",
+      "columnLabel": "Implementer",
+      "columns": [],
+      "rows": []
+    }
+  ],
+  "tables": [],
+  "summary": [],
+  "respecConfig": {
+    "specStatus": "unofficial",
+    "shortName": "did-resolution-mocha-test-suite",
+    "subtitle": "Interoperability Report for DID Resolution Test Suite",
+    "github": "https://github.com/w3c-ccg/did-resolution-mocha-test-suite",
+    "edDraftURI": "https://w3c-ccg.github.io/did-resolution-mocha-test-suite/",
+    "doJsonLd": true,
+    "includePermalinks": false,
+    "editors": [],
+    "authors": []
+  },
+  "title": "DID Resolution Test Suite",
+  "stats": [],
+  "statusMarkLabels": {
+    "pending": {
+      "icon": "🚫",
+      "label": "Pending"
+    },
+    "passed": {
+      "icon": "✓",
+      "label": "Passed"
+    },
+    "failed": {
+      "icon": "❌",
+      "label": "Failed"
+    },
+    "accessDenied": {
+      "icon": "⊘",
+      "label": "Access Denied"
+    },
+    "timeout": {
+      "icon": "⏱",
+      "label": "Timeout"
+    },
+    "notImplemented": {
+      "icon": "—",
+      "label": "Not Implemented"
+    }
+  }
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>DID Resolution Test Suite</title>
+        <meta http-equiv='Content-Type' content='text/html;charset=utf-8'/>
+        <!--
+          === NOTA BENE ===
+          For the three scripts below, if your spec resides on dev.w3 you can check them
+          out in the same tree and use relative links so that they'll work offline,
+         -->
+       <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove" defer></script>
+        <script type="text/javascript" class="remove">
+          // set this in the config section
+          var respecConfig = {
+      "specStatus": "unofficial",
+      "shortName": "did-resolution-mocha-test-suite",
+      "subtitle": "Interoperability Report for DID Resolution Test Suite",
+      "github": "https://github.com/w3c-ccg/did-resolution-mocha-test-suite",
+      "edDraftURI": "https://w3c-ccg.github.io/did-resolution-mocha-test-suite/",
+      "doJsonLd": true,
+      "includePermalinks": false,
+      "editors": [],
+      "authors": []
+    };
+        </script>
+        <style>
+    .passed {
+      font-weight: bold;
+      background-color: lightgreen;
+    }
+    .failed {
+      font-weight: bold;
+      background-color: pink;
+    }
+    .pending {
+      font-weight: bold;
+      background-color: #cdeaed;
+    }
+    .unimplemented, .notImplemented {
+      font-weight: bold;
+      background-color: lightyellow;
+    }
+    .flex-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+    }
+    .at-risk {
+      outline: thin #c45e0a solid;
+    }
+    
+        </style>
+  </head>
+  <body>
+    <!-- these are not in <head> in order to override Respec injected styles -->
+    <style>
+      .hide {
+        display: none;
+      }
+      details.hide {
+        display: none;
+      }
+      .err {
+        position: absolute;
+        z-index: 1;
+        white-space: nowrap;
+        background: white;
+        border: 1px solid darkgray;
+        text-align: left;
+        padding: .1em .5em;
+        box-shadow: 0 0 5px darkgray;
+        min-width: 25em;
+      }
+      span.err,
+      details.err summary {
+        color: indianred;
+      }
+      .no-space-around {
+        margin: 0;
+        padding: 0;
+      }
+      pre {
+        width: 75%;
+        white-space: pre-line;
+        word-break: break-all;
+        margin: 0;
+        padding: 0;
+        background: white;
+      }
+      code > span.hljs-attr {
+        margin-left: 1rem;
+      }
+      .no-wrap {
+        white-space: nowrap;
+      }
+      td.optional {
+        background-color: #b9b7b7;
+      }
+      .text-right {
+        text-align: right;
+      }
+      .text-left {
+        text-align: left;
+      }
+      .text-center, th.text-center {
+        text-align: center;
+      }
+      .qr-code {
+        margin-left: 25px;
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .small-font {
+        font-size: 0.75rem;
+      }
+      .highlight-on-hover:hover {
+        background-color: yellow;
+        cursor: default;
+      }
+      .highlight-on-hover:hover + .relative-pos > .err {
+        display: block;
+      }
+      pre, code.hljs {
+        overflow: auto;
+      }
+      .relative-pos {
+        position: relative;
+        width: 0.5rem;
+        height: 0.5rem;
+        z-index: 1;
+      }
+      .relative-pos:hover > .err {
+        display: block;
+      }
+    </style>
+    <section id="abstract">
+      <p>
+      This is the interoperability report for the implementers of the
+      <a href="https://www.w3.org/TR/did-resolution/">DID Resolution specification</a>.
+      </p>
+    </section>
+    <section id="sotd">
+    </section>
+    
+    <section class="informative" id="conformance-testing-results">
+      <h2> Conformance Testing Results </h2>
+      <p>
+        These tests were run on <time>14 August 2025 at 8:31 pm UTC</time>
+      </p>
+      <section class="informative" id="Key">
+        <h3>Key</h3>
+        <table>
+          <tr>
+            <td class="pending not-optional highlight-on-hover text-center">
+              <div class="highlight-on-hover">🚫</div>
+            </td>
+            <td>Pending</td>
+          </tr>
+          <tr>
+            <td class="passed not-optional highlight-on-hover text-center">
+              <div class="highlight-on-hover">✓</div>
+            </td>
+            <td>Passed</td>
+          </tr>
+          <tr>
+            <td class="failed not-optional highlight-on-hover text-center">
+              <div class="highlight-on-hover">❌</div>
+            </td>
+            <td>Failed</td>
+          </tr>
+          <tr>
+            <td class="accessDenied not-optional highlight-on-hover text-center">
+              <div class="highlight-on-hover">⊘</div>
+            </td>
+            <td>Access Denied</td>
+          </tr>
+          <tr>
+            <td class="timeout not-optional highlight-on-hover text-center">
+              <div class="highlight-on-hover">⏱</div>
+            </td>
+            <td>Timeout</td>
+          </tr>
+          <tr>
+            <td class="notImplemented not-optional highlight-on-hover text-center">
+              <div class="highlight-on-hover">—</div>
+            </td>
+            <td>Not Implemented</td>
+          </tr>
+        </table>
+      </section>
+    
+      <p>
+      The results of the tests are shown below:
+      </p>
+    </section>
+    <section id="conformance">
+      <!--- This will take the tests and display them as matrices -->
+        <section class="informative" id="Example Test Suite">
+          <h2>Example Test Suite</h2>
+          <div class="row">
+            <table class="simple">
+              <thead>
+                <th width="20%">
+                  <div class="text-right small-font">
+                  Implementer &#8658;
+                  </div>
+                  <div class="text-left small-font">
+                  <span>&#8659;</span><span>Test Name</span>
+                  </div>
+                </th>
+                </thead>
+              <tbody>
+            </tbody>
+            </table>
+          </div>
+          <div>
+            <div class="flex-center">
+              <div class="row">
+              </div>
+              <div class="">
+              </div>
+            </div>
+          </div>
+        </section>
+    </section>
+  </body>
+</html>
