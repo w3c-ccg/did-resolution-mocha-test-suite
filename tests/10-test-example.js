@@ -8,6 +8,7 @@ import {createRequire} from 'node:module';
 import {filterByTag} from 'vc-test-suite-implementations';
 import {helpers} from 'mocha-w3c-interop-reporter';
 
+// eslint-disable-next-line no-unused-vars
 const should = chai.should();
 
 const tag = 'did-resolution';
