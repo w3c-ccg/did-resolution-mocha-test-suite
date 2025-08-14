@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 import * as chai from 'chai';
-import dids from './dids.json' with { type: 'json' };
+import {createRequire} from 'node:module';
 import {filterByTag} from 'vc-test-suite-implementations';
 import {helpers} from 'mocha-w3c-interop-reporter';
 
@@ -12,6 +12,9 @@ const should = chai.should();
 
 const tag = 'did-resolution';
 const {match} = filterByTag({tags: [tag], property: 'didResolvers'});
+
+const require = createRequire(import.meta.url);
+const dids = require('./dids.json');
 
 describe('Example Test Suite', function() {
   helpers.setupMatrix.call(this, match);
