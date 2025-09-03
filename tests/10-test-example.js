@@ -22,8 +22,7 @@ describe('Example Test Suite', function() {
   for(const [name, implementation] of match) {
     describe(name, function() {
       beforeEach(helpers.setupRow);
-
-      for(const did of dids) {
+      for(const did of implementation.settings.didResolvers[0].supportedDids.valid) {
         it(did, async function() {
           const endpoint = implementation.settings.didResolvers[0].endpoint;
           const url = `${endpoint}/${did}`;
@@ -43,3 +42,18 @@ describe('Example Test Suite', function() {
     });
   }
 });
+
+
+// There are tests that can be written that do no depend on input from the DID resolver implementation.
+
+
+// Each test case will need to define resolutionOption
+
+// We likely want to use JSON schema to 
+
+// Manu suggests multiple files. one per section of the spec.
+// Use numbers to identify the order that the tests will run
+//
+
+
+// See finished test suite. E.g. vc-data-model-2.-
