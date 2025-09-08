@@ -22,7 +22,7 @@ describe('Example Test Suite', function() {
   for(const [name, implementation] of match) {
     describe(name, function() {
       beforeEach(helpers.setupRow);
-      for(const did of implementation.settings.didResolvers[0].supportedDids.valid) {
+      for(const {did} of implementation.settings.didResolvers[0].supportedDids.valid) {
         it(did, async function() {
           const endpoint = implementation.settings.didResolvers[0].endpoint;
           const url = `${endpoint}/${did}`;
