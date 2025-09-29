@@ -7,6 +7,8 @@ import * as chai from 'chai';
 import {filterByTag} from 'vc-test-suite-implementations';
 import {helpers} from 'mocha-w3c-interop-reporter';
 import { checkSuccessfulResolutionResult, checkErrorResolutionResult } from './assertions.js';
+import {nonAsciiStrings} from './negativeTestCases.js';
+import {addQueryParametersToUrl} from './helpers.js';
 
 // eslint-disable-next-line no-unused-vars
 const should = chai.should();
@@ -14,22 +16,6 @@ const expect = chai.expect;
 const tag = 'did-resolution';
 const {match} = filterByTag({tags: [tag], property: 'didResolvers'});
 
-const nonAsciiStrings = [
-  '🔥💥🚫',      // emojis
-  'Привет',     // Cyrillic
-  'こんにちは',  // Japanese
-  'مرحبا',       // Arabic
-  'foo\u200Bbar' // includes zero-width space
-];
-
-// Add resolutionOptions as query parameters to a base URL
-function addResolutionOptionsToUrl(baseUrl, resolutionOptions = {}) {
-  const url = new URL(baseUrl);
-  for(const [key, value] of Object.entries(resolutionOptions)) {
-    url.searchParams.append(key, value);
-  }
-  return url.toString();
-}
 
 describe('DID Resolution', function() {
   helpers.setupMatrix.call(this, match);
@@ -46,7 +32,7 @@ describe('DID Resolution', function() {
       validDids.forEach(({did, resolutionOptions}) => {
 
         const baseUrl = `${endpoint}/${did}`;
-        let url = addResolutionOptionsToUrl(baseUrl, resolutionOptions);
+        let url = addQueryParametersToUrl(baseUrl, resolutionOptions);
         it('All conformant DID resolvers MUST implement the DID resolution ' +
           'function for at least one DID method', async function() {
 
@@ -138,7 +124,7 @@ describe('DID Resolution', function() {
         // QUESTION: Should this still have a problem details error?
         // Currently the spec doesnt define how to handle this case
       });
-      // 
+
       const unconformantDids = ['not-a-did', 'did:example'];
       for(const badDid of unconformantDids) {
 
@@ -183,7 +169,7 @@ describe('DID Resolution', function() {
       }
       const {did, resolutionOptions} = implementation.settings.didResolvers[0].supportedDids.valid[0]
       let baseUrl = `${endpoint}/${did}`;
-      baseUrl = addResolutionOptionsToUrl(baseUrl, resolutionOptions);
+      baseUrl = addQueryParametersToUrl(baseUrl, resolutionOptions);
 
       
       it('The Media Type MUST be expressed as an ASCII string.',
@@ -210,7 +196,7 @@ describe('DID Resolution', function() {
         const rv = await fetch(url);
         this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('Determine whether the DID method of the input DID is supported by the DID resolver that implements this algorithm. If not, the DID resolver MUST return the following result:')}`;
         rv.ok.should.be.false;
-        // TODO: Is 501 required by the spec? 
+        // TODO: Is 501 required by the spec?
         // rv.status.should.equal(501);
         // rv.headers.get('content-type')
         //   .should.include('application/did-resolution');
@@ -220,7 +206,6 @@ describe('DID Resolution', function() {
       );
 
     });
-
 
   }
 });
