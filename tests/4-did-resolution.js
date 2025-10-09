@@ -4,11 +4,12 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 import * as chai from 'chai';
+import {checkErrorResolutionResult,
+  checkSuccessfulResolutionResult} from './assertions.js';
+import {addQueryParametersToUrl} from './helpers.js';
 import {filterByTag} from 'vc-test-suite-implementations';
 import {helpers} from 'mocha-w3c-interop-reporter';
-import { checkSuccessfulResolutionResult, checkErrorResolutionResult } from './assertions.js';
 import {nonAsciiStrings} from './negativeTestCases.js';
-import {addQueryParametersToUrl} from './helpers.js';
 
 // eslint-disable-next-line no-unused-vars
 const should = chai.should();
@@ -16,14 +17,14 @@ const expect = chai.expect;
 const tag = 'did-resolution';
 const {match} = filterByTag({tags: [tag], property: 'didResolvers'});
 
-
 describe('DID Resolution', function() {
   helpers.setupMatrix.call(this, match);
   for(const [name, implementation] of match) {
     const endpoint = implementation.settings.didResolvers[0].endpoint;
     describe(name, function() {
       beforeEach(helpers.setupRow);
-      const validDids = implementation.settings.didResolvers[0].supportedDids.valid;
+      const validDids = implementation.settings.didResolvers[0]
+        .supportedDids.valid;
 
       it('Implementation has at least one valid DID to test', function() {
         expect(validDids.length).to.be.greaterThan(0);
@@ -32,7 +33,7 @@ describe('DID Resolution', function() {
       validDids.forEach(({did, resolutionOptions}) => {
 
         const baseUrl = `${endpoint}/${did}`;
-        let url = addQueryParametersToUrl(baseUrl, resolutionOptions);
+        const url = addQueryParametersToUrl(baseUrl, resolutionOptions);
         it('All conformant DID resolvers MUST implement the DID resolution ' +
           'function for at least one DID method', async function() {
 
@@ -91,16 +92,14 @@ describe('DID Resolution', function() {
           resolutionResult.should.have.property('didResolutionMetadata');
 
           if(resolutionResult.didResolutionMetadata.contentType) {
-            resolutionResult.didResolutionMetadata.contentType.should.equal(contentType);
+            resolutionResult.didResolutionMetadata.contentType
+              .should.equal(contentType);
           }
         });
 
-        it('If the proof property is present, the value of this ' +
-          'property MUST be a set where each item is a map that contains a proof.', 
+        it('If the proof property is present, the value of this property' +
+          ' MUST be a set where each item is a map that contains a proof.',
         async function() {
-
-          const contentType = 'application/did';
-
           const rv = await fetch(url);
           this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('DID resolution metadata MAY include a proof property. If present, the value MUST be a set where each item is a map that contains a proof.')}`;
           rv.ok.should.be.true;
@@ -164,14 +163,12 @@ describe('DID Resolution', function() {
             .should.have.property('error');
         });
 
-
-
       }
-      const {did, resolutionOptions} = implementation.settings.didResolvers[0].supportedDids.valid[0]
+      const {did, resolutionOptions} = implementation.settings.didResolvers[0]
+        .supportedDids.valid[0];
       let baseUrl = `${endpoint}/${did}`;
       baseUrl = addQueryParametersToUrl(baseUrl, resolutionOptions);
 
-      
       it('The Media Type MUST be expressed as an ASCII string.',
         async function() {
           for(const badMediaType of nonAsciiStrings) {
