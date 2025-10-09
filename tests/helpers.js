@@ -1,5 +1,4 @@
 
-
 // Add resolutionOptions as query parameters to a base URL
 export function addQueryParametersToUrl(baseUrl, parameters = {}) {
   const url = new URL(baseUrl);

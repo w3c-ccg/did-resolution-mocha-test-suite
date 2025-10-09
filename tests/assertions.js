@@ -1,6 +1,5 @@
-import assert from 'node:assert/strict';
 import * as chai from 'chai';
-
+import assert from 'node:assert/strict';
 
 const should = chai.should();
 
@@ -15,7 +14,9 @@ export function checkSuccessfulResolutionResult(resolutionResult) {
   resolutionResult.didDocumentMetadata.should.be.an('object');
 }
 
-export function checkErrorResolutionResult(resolutionResult, expectedErrorType) {
+export function checkErrorResolutionResult(resolutionResult,
+  expectedErrorType) {
+
   resolutionResult.should.be.an('object');
   resolutionResult.should.have.property('didResolutionMetadata');
   resolutionResult.didResolutionMetadata.should.be.an('object');
