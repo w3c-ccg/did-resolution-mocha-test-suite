@@ -1,4 +1,3 @@
-import * as chai from 'chai';
 import assert from 'node:assert/strict';
 
 export function checkSuccessfulResolutionResult(resolutionResult) {
