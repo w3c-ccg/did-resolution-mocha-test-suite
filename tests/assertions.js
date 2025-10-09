@@ -1,8 +1,6 @@
 import * as chai from 'chai';
 import assert from 'node:assert/strict';
 
-const should = chai.should();
-
 export function checkSuccessfulResolutionResult(resolutionResult) {
   resolutionResult.should.be.an('object');
   resolutionResult.should.have.property('didResolutionMetadata');
