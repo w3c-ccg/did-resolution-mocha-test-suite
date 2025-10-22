@@ -22,7 +22,7 @@ describe('DID Parameters', function() {
       validRequest.resolutionOptions);
 
     describe(name, function() {
-
+      beforeEach(helpers.setupRow);
       it('service parameter MUST be an ASCII string if present',
         async function() {
           for(const badService of nonAsciiStrings) {
@@ -89,7 +89,7 @@ describe('DID Parameters', function() {
       ];
 
       it('relativeRef parameter MUST use percent-encoding for certain' +
-        'characters as specified in RFC3986 Section 2.1.', async function() {
+        ' characters as specified in RFC3986 Section 2.1.', async function() {
         // TODO: Implement this test properly
 
         for(const badRelativeRef of noPercentEncodingRelativeRef) {
@@ -97,7 +97,7 @@ describe('DID Parameters', function() {
             {relativeRef: badRelativeRef});
           const rv = await fetch(urlWithRelativeRef);
 
-          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('If present, the associated value MUST be an ASCII string and MUST use percent-encoding for certain characters as specified in RFC3986 Section 2.1.')}`;
+          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('A relative URI reference according to RFC3986 Section 4.2 that identifies a resource at a service endpoint, which is selected from a DID document by using the service parameter. If present, the associated value MUST be an ASCII string and MUST use percent-encoding for certain characters as specified in RFC3986 Section 2.1.')}`;
 
           rv.ok.should.be.false;
           rv.status.should.equal(400);
@@ -125,98 +125,98 @@ describe('DID Parameters', function() {
 
           }
         });
-    });
 
-    it('versionTime parameter MUST be an ASCII string if present',
-      async function() {
-        for(const badVersionTime of nonAsciiStrings) {
-          const urlWithVersionTime = addQueryParametersToUrl(url,
-            {versionTime: badVersionTime});
-          const rv = await fetch(urlWithVersionTime);
+      it('versionTime parameter MUST be an ASCII string if present',
+        async function() {
+          for(const badVersionTime of nonAsciiStrings) {
+            const urlWithVersionTime = addQueryParametersToUrl(url,
+              {versionTime: badVersionTime});
+            const rv = await fetch(urlWithVersionTime);
 
-          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('versionTime. If present, the associated value MUST be an ASCII string')}`;
+            this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('versionTime. If present, the associated value MUST be an ASCII string')}`;
 
-          rv.ok.should.be.false;
-          rv.status.should.equal(400);
+            rv.ok.should.be.false;
+            rv.status.should.equal(400);
 
-        }
-      });
+          }
+        });
 
-    const invalidXmlDateTimes = [
-      '2025-10-07 12:30:45', // Space instead of 'T'
-      '2025/10/07T12:30:45', // Wrong date separator
-      '2025-13-07T12:30:45', // Invalid month (13)
-      '2025-10-32T12:30:45', // Invalid day (32)
-      '2025-10-07T25:00:00', // Invalid hour (25)
-      '2025-10-07T12:30:60', // Invalid second (60)
-      '2025-10-07T12:30:45+24:00', // Invalid timezone offset
-      '2025-10-07', // Missing time component
-      '2025-10-07T12:30:45abc', // Trailing invalid characters
-      'T12:30:45' // Missing date
-    ];
+      const invalidXmlDateTimes = [
+        '2025-10-07 12:30:45', // Space instead of 'T'
+        '2025/10/07T12:30:45', // Wrong date separator
+        '2025-13-07T12:30:45', // Invalid month (13)
+        '2025-10-32T12:30:45', // Invalid day (32)
+        '2025-10-07T25:00:00', // Invalid hour (25)
+        '2025-10-07T12:30:60', // Invalid second (60)
+        '2025-10-07T12:30:45+24:00', // Invalid timezone offset
+        '2025-10-07', // Missing time component
+        '2025-10-07T12:30:45abc', // Trailing invalid characters
+        'T12:30:45' // Missing date
+      ];
 
-    it('versionTime parameter MUST be a valid XML datetime value if present',
-      async function() {
-        for(const badXmlDateTime of invalidXmlDateTimes) {
+      it('versionTime parameter MUST be a valid XML datetime value if present',
+        async function() {
+          for(const badXmlDateTime of invalidXmlDateTimes) {
+            const urlWithVersionTime = addQueryParametersToUrl(url,
+              {versionTime: badXmlDateTime});
+            const rv = await fetch(urlWithVersionTime);
+
+            this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('If present, the associated value MUST be an ASCII string which is a valid XML datetime value, as defined in section 3.3.7 of W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes')}`;
+
+            rv.ok.should.be.false;
+            rv.status.should.equal(400);
+
+          }
+
+        });
+
+      const notNormalizedXmlDateTimes = [
+        '2025-10-07T00:00:00+02:00', // Not UTC, has offset +02:00
+        '2025-10-07T00:00:00-05:00', // Not UTC, has offset -05:00
+        '2025-10-07T00:00:00', // No timezone indicator (ambiguous)
+        '2025-10-07T00:00:00.123Z', // Has sub-second precision
+        '2025-10-07T00:00:00.999+01:00' // Fractional seconds + offset
+      ];
+
+      it('versionTime parameter MUST be normalized to UTC 00:00:00 and ' +
+        'without sub-second decimal precision. ', async function() {
+        for(const badXmlDateTime of notNormalizedXmlDateTimes) {
           const urlWithVersionTime = addQueryParametersToUrl(url,
             {versionTime: badXmlDateTime});
           const rv = await fetch(urlWithVersionTime);
 
-          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('If present, the associated value MUST be an ASCII string which is a valid XML datetime value, as defined in section 3.3.7 of W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes')}`;
-
           rv.ok.should.be.false;
           rv.status.should.equal(400);
 
         }
 
-      });
-
-    const notNormalizedXmlDateTimes = [
-      '2025-10-07T00:00:00+02:00', // Not UTC, has offset +02:00
-      '2025-10-07T00:00:00-05:00', // Not UTC, has offset -05:00
-      '2025-10-07T00:00:00', // No timezone indicator (ambiguous)
-      '2025-10-07T00:00:00.123Z', // Has sub-second precision
-      '2025-10-07T00:00:00.999+01:00' // Fractional seconds + offset
-    ];
-
-    it('versionTime parameter MUST be normalized to UTC 00:00:00 and without' +
-      'sub-second decimal precision. ', async function() {
-      for(const badXmlDateTime of notNormalizedXmlDateTimes) {
+        const normalizedDateTime = '2025-10-07T14:30:00Z';
         const urlWithVersionTime = addQueryParametersToUrl(url,
-          {versionTime: badXmlDateTime});
+          {versionTime: normalizedDateTime});
         const rv = await fetch(urlWithVersionTime);
 
-        rv.ok.should.be.false;
-        rv.status.should.equal(400);
+        this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('This datetime value MUST be normalized to UTC 00:00:00 and without sub-second decimal precision.')}`;
 
-      }
+        rv.ok.should.be.true;
+        rv.status.should.equal(200);
 
-      const normalizedDateTime = '2025-10-07T14:30:00Z';
-      const urlWithVersionTime = addQueryParametersToUrl(url,
-        {versionTime: normalizedDateTime});
-      const rv = await fetch(urlWithVersionTime);
+        const resolutionResult = await rv.json();
 
-      this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('This datetime value MUST be normalized to UTC 00:00:00 and without sub-second decimal precision.')}`;
+        checkSuccessfulResolutionResult(resolutionResult);
+      });
 
-      rv.ok.should.be.true;
-      rv.status.should.equal(200);
+      it('hl parameter MUST be an ASCII string if present', async function() {
+        for(const badHashLink of nonAsciiStrings) {
+          const urlWithHl = addQueryParametersToUrl(url, {hl: badHashLink});
+          const rv = await fetch(urlWithHl);
 
-      const resolutionResult = await rv.json();
+          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('A resource hash of the DID document to add integrity protection, as specified in [HASHLINK]. This parameter is non-normative. If present, the associated value MUST be an ASCII string.')}`;
 
-      checkSuccessfulResolutionResult(resolutionResult);
-    });
+          rv.ok.should.be.false;
+          rv.status.should.equal(400);
 
-    it('hl parameter MUST be an ASCII string if present', async function() {
-      for(const badHashLink of nonAsciiStrings) {
-        const urlWithHl = addQueryParametersToUrl(url, {hl: badHashLink});
-        const rv = await fetch(urlWithHl);
-
-        this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('A resource hash of the DID document to add integrity protection, as specified in [HASHLINK]. This parameter is non-normative. If present, the associated value MUST be an ASCII string.')}`;
-
-        rv.ok.should.be.false;
-        rv.status.should.equal(400);
-
-      }
+        }
+      });
     });
 
   }

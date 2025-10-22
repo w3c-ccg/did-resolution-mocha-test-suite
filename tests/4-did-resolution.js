@@ -1,8 +1,3 @@
-/*!
- * Copyright (c) 2025 Digital Bazaar, Inc.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
 import * as chai from 'chai';
 import {checkErrorResolutionResult,
   checkSuccessfulResolutionResult} from './assertions.js';
