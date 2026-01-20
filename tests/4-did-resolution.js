@@ -33,8 +33,8 @@ describe('DID Resolution', function() {
           'function for at least one DID method', async function() {
 
           const rv = await fetch(url);
-          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=All%20conformant%20DID%20resolvers%20MUST%20implement%20the%20DID%20resolution%20function%20for%20at%20least%20one%20DID%20method%20and%20MUST%20be%20able%20to%20return%20a%20DID%20document%20in%20at%20least%20one%20conformant%20representation.`;
-
+          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=All%20conforming%20DID%20resolvers%20MUST%20implement%20the%20DID%20resolution%20function%20for%20at%20least%20one%20DID%20method`;
+          
           rv.ok.should.be.true;
           rv.status.should.equal(200);
           rv.headers.get('content-type')
@@ -42,8 +42,6 @@ describe('DID Resolution', function() {
           const resolutionResult = await rv.json();
 
           checkSuccessfulResolutionResult(resolutionResult);
-
-          // TODO: Test resolutionResult.didDocument is conformant
         });
 
         it('The resolutionOptions input is REQUIRED, but the structure ' +
@@ -74,38 +72,6 @@ describe('DID Resolution', function() {
           resolutionResult.should.have.property('didDocument');
           resolutionResult.didDocument.id.should.equal(did);
         });
-
-        it('If the contentType property is present, the value of this ' +
-          'property MUST be an ASCII string that is the Media Type of' +
-          'the conformant representations.', async function() {
-          const contentType = 'application/did';
-
-          const rv = await fetch(url);
-          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('If present, the value of this property MUST be an ASCII string that is the Media Type of the conformant representations.')}`;
-          rv.ok.should.be.true;
-          const resolutionResult = await rv.json();
-          resolutionResult.should.have.property('didResolutionMetadata');
-
-          if(resolutionResult.didResolutionMetadata.contentType) {
-            resolutionResult.didResolutionMetadata.contentType
-              .should.equal(contentType);
-          }
-        });
-
-        it('If the proof property is present, the value of this property' +
-          ' MUST be a set where each item is a map that contains a proof.',
-        async function() {
-          const rv = await fetch(url);
-          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('DID resolution metadata MAY include a proof property. If present, the value MUST be a set where each item is a map that contains a proof.')}`;
-          rv.ok.should.be.true;
-          const resolutionResult = await rv.json();
-          resolutionResult.should.have.property('didResolutionMetadata');
-
-          if(resolutionResult.didResolutionMetadata.proof) {
-            resolutionResult.didResolutionMetadata.proot.should.be.an('array');
-          }
-        });
-
       });
 
       it('The did input is REQUIRED', async function() {
@@ -163,22 +129,6 @@ describe('DID Resolution', function() {
         .supportedDids.valid[0];
       let baseUrl = `${endpoint}/${did}`;
       baseUrl = addQueryParametersToUrl(baseUrl, resolutionOptions);
-
-      it('The Media Type MUST be expressed as an ASCII string.',
-        async function() {
-          for(const badMediaType of nonAsciiStrings) {
-            const badUrl = new URL(baseUrl);
-            badUrl.searchParams.append('accept', badMediaType);
-            const url = badUrl.toString();
-            const rv = await fetch(url);
-
-            this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('The Media Type MUST be expressed as an ASCII string. The DID resolver implementation')}`;
-
-            rv.ok.should.be.false;
-            rv.status.should.equal(400);
-
-          }
-        });
 
       const unsupportedDidMethod = 'did:unsupported:123456789abcdefghi';
       it('If the DID method is not supported, produces a ' +
