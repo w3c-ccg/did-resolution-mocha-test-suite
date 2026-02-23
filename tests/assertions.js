@@ -25,8 +25,7 @@ export function checkErrorResolutionResult(resolutionResult,
       .equal(expectedErrorType);
   }
   resolutionResult.should.have.property('didDocument');
-  assert(resolutionResult.didDocument === null,
-    'didDocument MUST be null on error');
+  resolutionResult.didDocument.should.be.null;
   resolutionResult.should.have.property('didDocumentMetadata');
   resolutionResult.didDocumentMetadata.should.be.an('object');
 }
@@ -35,4 +34,11 @@ export function checkConformantDidDocument(didDocument) {
   didDocument.should.be.an('object');
   didDocument.should.have.property('id');
   didDocument.id.should.be.a('string');
+  didDocument.should.have.property('@context');
+  if(typeof didDocument['@context'] === 'string') {
+    didDocument['@context'].should.equal('https://www.w3.org/ns/did/v1');
+  } else {
+    didDocument['@context'].should.be.an('array');
+    didDocument['@context'].should.contain('https://www.w3.org/ns/did/v1');
+  }
 }
