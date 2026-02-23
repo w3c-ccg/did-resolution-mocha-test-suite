@@ -133,7 +133,7 @@ describe('DID Resolution', function() {
             // rv.headers.get('content-type')
             //   .should.include('application/did-resolution');
             const resolutionResult = await rv.json();
-            checkErrorResolutionResult(resolutionResult, 'INVALID_DID');
+            checkErrorResolutionResult(resolutionResult, 'https://www.w3.org/ns/did#INVALID_DID');
           });
         it('The error property in DID Document Metadata is REQUIRED when ' +
           'there is an error in the resolution process.', async function() {
@@ -176,12 +176,8 @@ describe('DID Resolution', function() {
         const rv = await fetch(url);
         this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('Determine whether the DID method of the input DID is supported by the DID resolver that implements this algorithm. If not, the DID resolver MUST return the following result:')}`;
         rv.ok.should.be.false;
-        // TODO: Is 501 required by the spec?
-        // rv.status.should.equal(501);
-        // rv.headers.get('content-type')
-        //   .should.include('application/did-resolution');
         const resolutionResult = await rv.json();
-        checkErrorResolutionResult(resolutionResult, 'METHOD_NOT_SUPPORTED');
+        checkErrorResolutionResult(resolutionResult, 'https://www.w3.org/ns/did#METHOD_NOT_SUPPORTED');
       }
       );
 
