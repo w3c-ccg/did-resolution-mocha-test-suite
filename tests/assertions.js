@@ -1,4 +1,8 @@
-import assert from 'node:assert/strict';
+import Ajv from 'ajv';
+import didSchema from './did-schema.json' with {type: 'json'};
+
+const ajv = new Ajv({allErrors: true, strict: false, validateSchema: false});
+const validateDidDocument = ajv.compile(didSchema);
 
 export function checkSuccessfulResolutionResult(resolutionResult) {
   resolutionResult.should.be.an('object');
@@ -32,13 +36,6 @@ export function checkErrorResolutionResult(resolutionResult,
 
 export function checkConformantDidDocument(didDocument) {
   didDocument.should.be.an('object');
-  didDocument.should.have.property('id');
-  didDocument.id.should.be.a('string');
-  didDocument.should.have.property('@context');
-  if(typeof didDocument['@context'] === 'string') {
-    didDocument['@context'].should.equal('https://www.w3.org/ns/did/v1');
-  } else {
-    didDocument['@context'].should.be.an('array');
-    didDocument['@context'].should.contain('https://www.w3.org/ns/did/v1');
-  }
+  const isValid = validateDidDocument(didDocument);
+  isValid.should.be.true();
 }
