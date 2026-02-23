@@ -37,5 +37,5 @@ export function checkErrorResolutionResult(resolutionResult,
 export function checkConformantDidDocument(didDocument) {
   didDocument.should.be.an('object');
   const isValid = validateDidDocument(didDocument);
-  isValid.should.be.true();
+  isValid.should.be.true;
 }
