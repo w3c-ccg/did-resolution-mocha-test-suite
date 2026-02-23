@@ -47,7 +47,7 @@ for the resolver to resolve that DID.
 
 See the example below:
 
-```js
+```json
   "issuers": [{
     // ... issuer settings here
   }],
@@ -55,7 +55,7 @@ See the example below:
     // ... verifier settings here
   }],
   "didResolvers": [{
-    "id": "..."
+    "id": "...",
     "endpoint": "...",
     "tags": ["did-resolution"],
     "supportedDids": {
@@ -65,8 +65,18 @@ See the example below:
           "resolutionOptions": {}
         }
       ],
-      "notFound": "",
-      "deactivated": ""
+      "notFound": [
+        {
+          "did": "did:x:z2J9gcGbsEDUmANXS8iJTVefK5t4eCx9x5k8jr8EyXWekTiEet6Jt6gwup2aWawzhHyMadvVMFcQ3ruwqg1Y8rYzjto1ccQu",
+          "resolutionOptions": {}
+        }
+      ],
+      "deactivated": [
+        {
+          "did": "did:y:z2J9gcGbsEDUmANXS8iJTVefK5t4eCx9x5k8jr8EyXWekTiEet6Jt6gwup2aWawzhHyMadvVMFcQ3ruwqg1Y8rYzjto1ccQu",
+          "resolutionOptions": {}
+        }
+      ]
     }
   }]
 ```
