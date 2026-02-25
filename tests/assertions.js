@@ -1,6 +1,8 @@
+import * as chai from 'chai';
 import Ajv from 'ajv';
 import didSchema from './did-schema.json' with {type: 'json'};
 
+const expect = chai.expect;
 const ajv = new Ajv({allErrors: true, strict: false, validateSchema: false});
 const validateDidDocument = ajv.compile(didSchema);
 
@@ -29,7 +31,7 @@ export function checkErrorResolutionResult(resolutionResult,
       .equal(expectedErrorType);
   }
   resolutionResult.should.have.property('didDocument');
-  resolutionResult.didDocument.should.be.null;
+  expect(resolutionResult.didDocument).to.be.null;
   resolutionResult.should.have.property('didDocumentMetadata');
   resolutionResult.didDocumentMetadata.should.be.an('object');
 }
