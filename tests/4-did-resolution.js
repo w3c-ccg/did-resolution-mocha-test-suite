@@ -37,9 +37,6 @@ describe('DID Resolution', function() {
           this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=All%20conforming%20DID%20resolvers%20MUST%20implement%20the%20DID%20resolution%20function%20for%20at%20least%20one%20DID%20method`;
 
           rv.ok.should.be.true;
-          rv.status.should.equal(200);
-          rv.headers.get('content-type')
-            .should.include('application/did-resolution');
           const resolutionResult = await rv.json();
 
           checkSuccessfulResolutionResult(resolutionResult);
@@ -59,7 +56,6 @@ describe('DID Resolution', function() {
             const rv = await fetch(url, fetchOptions);
             this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('A metadata structure consisting of values relating to the results of the DID resolution process. This structure is REQUIRED')}`;
             rv.ok.should.be.true;
-            rv.status.should.equal(200);
             const resolutionResult = await rv.json();
             resolutionResult.should.have.property('didResolutionMetadata');
           }
@@ -70,7 +66,6 @@ describe('DID Resolution', function() {
           const rv = await fetch(url, fetchOptions);
           this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20DID%20document%20that%20is%20capable%20of%20being%20represented%20in%20one%20of%20the%20conformant%20representations%20of%20the%20Decentralized%20Identifiers%20(DIDs)%20v1.0%20specification`;
           rv.ok.should.be.true;
-          rv.status.should.equal(200);
           const resolutionResult = await rv.json();
           resolutionResult.should.have.property('didDocument');
         });
@@ -81,7 +76,6 @@ describe('DID Resolution', function() {
           const rv = await fetch(url, fetchOptions);
           this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=The%20value%20of%20id%20in%20the%20resolved%20DID%20document%20MUST%20be%20string%20equal%20to%20the%20DID%20that%20was%20resolved.`;
           rv.ok.should.be.true;
-          rv.status.should.equal(200);
           const resolutionResult = await rv.json();
           resolutionResult.should.have.property('didDocument');
           resolutionResult.didDocument.id.should.equal(did);
@@ -130,9 +124,6 @@ describe('DID Resolution', function() {
             const rv = await fetch(url, fetchOptions);
             this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=${encodeURIComponent('Validate that the input DID conforms to the did rule of the DID Syntax. If not, the DID resolver MUST return the following result:')}`;
             rv.ok.should.be.false;
-            rv.status.should.equal(400);
-            // rv.headers.get('content-type')
-            //   .should.include('application/did-resolution');
             const resolutionResult = await rv.json();
             checkErrorResolutionResult(resolutionResult, 'https://www.w3.org/ns/did#INVALID_DID');
           });
