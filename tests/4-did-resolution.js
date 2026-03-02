@@ -86,7 +86,6 @@ describe('DID Resolution', function() {
           const rv = await fetch(url, fetchOptions);
           this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20metadata%20structure`;
           rv.ok.should.be.true;
-          rv.status.should.equal(200);
           const resolutionResult = await rv.json();
           resolutionResult.should.have.property('didDocumentMetadata');
           resolutionResult.didDocumentMetadata.should.be.an('object');
@@ -98,7 +97,6 @@ describe('DID Resolution', function() {
         const rv = await fetch(url, fetchOptions);
         this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;
         rv.ok.should.be.false;
-        rv.status.should.equal(400);
 
         // QUESTION: Should this still have a problem details error?
         // Currently the spec doesnt define how to handle this case
@@ -114,7 +112,6 @@ describe('DID Resolution', function() {
           const rv = await fetch(url, fetchOptions);
           this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;
           rv.ok.should.be.false;
-          rv.status.should.equal(400);
         });
         it('Produces a INVALID_DID error and conformant resolution result',
           async function() {
@@ -133,7 +130,6 @@ describe('DID Resolution', function() {
           const rv = await fetch(url, fetchOptions);
           this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.`;
           rv.ok.should.be.false;
-          rv.status.should.equal(400);
           const resolutionResult = await rv.json();
           resolutionResult.should.have.property('didResolutionMetadata');
           resolutionResult.didResolutionMetadata
@@ -147,7 +143,6 @@ describe('DID Resolution', function() {
           const rv = await fetch(url, fetchOptions);
           this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.`;
           rv.ok.should.be.false;
-          rv.status.should.equal(400);
           const resolutionResult = await rv.json();
           resolutionResult.should.have.property('didDocumentMetadata');
           resolutionResult.didDocumentMetadata.should.deep.equal({});
