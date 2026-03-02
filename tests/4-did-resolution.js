@@ -4,7 +4,6 @@ import {checkErrorResolutionResult,
 import {addQueryParametersToUrl} from './helpers.js';
 import {filterByTag} from 'vc-test-suite-implementations';
 import {helpers} from 'mocha-w3c-interop-reporter';
-import {nonAsciiStrings} from './negativeTestCases.js';
 
 // eslint-disable-next-line no-unused-vars
 const should = chai.should();
@@ -155,10 +154,6 @@ describe('DID Resolution', function() {
         });
 
       }
-      const {did, resolutionOptions} = implementation.settings.didResolvers[0]
-        .supportedDids.valid[0];
-      let baseUrl = `${endpoint}/${did}`;
-      baseUrl = addQueryParametersToUrl(baseUrl, resolutionOptions);
 
       const unsupportedDidMethod = 'did:unsupported:123456789abcdefghi';
       it('If the DID method is not supported, produces a ' +

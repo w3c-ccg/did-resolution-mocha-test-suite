@@ -36,10 +36,12 @@ describe('10.1 HTTP(S) Binding', function() {
     // These fields are optional in the implementation config
     const deactivatedDid = didResolver.supportedDids.deactivated || null;
     const notFoundDid = didResolver.supportedDids.notFound || null;
-    // derefUrls: [{didUrl, dereferencingOptions}] for DID URL dereferencing tests
+    // derefUrls: [{didUrl, dereferencingOptions}] for DID URL
+    // dereferencing tests
     const derefUrls = didResolver.supportedDids.derefUrls || [];
     // serviceDerefUrls: [{didUrl}] for service endpoint redirect (303) tests
-    const serviceDerefUrls = didResolver.supportedDids.serviceDerefUrls || [];
+    const serviceDerefUrls =
+      didResolver.supportedDids.serviceDerefUrls || [];
 
     describe(name, function() {
       beforeEach(helpers.setupRow);
@@ -55,12 +57,14 @@ describe('10.1 HTTP(S) Binding', function() {
         }
       });
 
-      // Normative: "All conforming DID resolvers MUST implement the GET version"
+      // Normative: "All conforming DID resolvers MUST implement the
+      // GET version"
       validDids.forEach(({did, resolutionOptions}) => {
         const baseUrl = `${endpoint}/${did}`;
         const url = addQueryParametersToUrl(baseUrl, resolutionOptions);
 
-        it('All conforming DID resolvers MUST implement the GET version of the HTTPS binding', async function() {
+        it('All conforming DID resolvers MUST implement the GET ' +
+          'version of the HTTPS binding', async function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
           const rv = await fetch(url, {
@@ -73,10 +77,13 @@ describe('10.1 HTTP(S) Binding', function() {
         // Normative: "If the value of the Content-Type HTTP response header is
         //   application/did-resolution: The HTTP body MUST contain a DID
         //   resolution result"
-        it('If Accept is application/did-resolution, HTTP body MUST contain a DID resolution result', async function() {
+        it('If Accept is application/did-resolution, HTTP body MUST ' +
+          'contain a DID resolution result', async function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
-          const rv = await fetch(url, {headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}});
+          const rv = await fetch(url, {
+            headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}
+          });
           rv.ok.should.be.true;
           const resolutionResult = await rv.json();
           checkSuccessfulResolutionResult(resolutionResult);
@@ -84,20 +91,27 @@ describe('10.1 HTTP(S) Binding', function() {
 
         // Normative: "If the function is successful and returns a didDocument:
         //   The HTTP response status code MUST be 200"
-        it('If function is successful and returns a didDocument, HTTP response status code MUST be 200', async function() {
+        it('If function is successful and returns a didDocument, ' +
+          'HTTP response status code MUST be 200', async function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
-          const rv = await fetch(url, {headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}});
+          const rv = await fetch(url, {
+            headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}
+          });
           rv.status.should.equal(200);
         });
 
         // Normative: "The HTTP response MUST contain a Content-Type HTTP
         //   response header. Its value MUST be the value of the contentType
         //   metadata property in the didResolutionMetadata"
-        it('HTTP response MUST contain a Content-Type header whose value MUST equal contentType in didResolutionMetadata', async function() {
+        it('HTTP response MUST contain a Content-Type header ' +
+          'whose value MUST equal ' +
+          'contentType in didResolutionMetadata', async function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
-          const rv = await fetch(url, {headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}});
+          const rv = await fetch(url, {
+            headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}
+          });
           rv.ok.should.be.true;
           const contentTypeHeader = rv.headers.get('Content-Type');
           expect(contentTypeHeader,
@@ -113,10 +127,13 @@ describe('10.1 HTTP(S) Binding', function() {
         // Normative: "The HTTP response body MUST contain the didDocument that
         //   is the result of the DID resolution function, in the representation
         //   corresponding to the Content-Type HTTP response header"
-        it('HTTP response body MUST contain the didDocument result of the DID resolution function', async function() {
+        it('HTTP response body MUST contain the didDocument result ' +
+          'of the DID resolution function', async function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
-          const rv = await fetch(url, {headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}});
+          const rv = await fetch(url, {
+            headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}
+          });
           rv.ok.should.be.true;
           const resolutionResult = await rv.json();
           resolutionResult.should.have.property('didDocument');
@@ -126,11 +143,15 @@ describe('10.1 HTTP(S) Binding', function() {
         // Normative: "set the Accept HTTP request header to the value of the
         //   accept resolution option to request only the didDocument value of
         //   the result"
-        it('If Accept is set to a DID representation media type, response body MUST contain only the didDocument (not the full resolution result)', async function() {
+        it('If Accept is set to a DID representation media type, ' +
+          'response body MUST contain only the didDocument ' +
+          '(not the full resolution result)', async function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
           // Try common DID document representation media types
-          for(const mediaType of ['application/did+json', 'application/did+ld+json']) {
+          const mediaTypes =
+            ['application/did+json', 'application/did+ld+json'];
+          for(const mediaType of mediaTypes) {
             const rv = await fetch(url, {headers: {Accept: mediaType}});
             if(rv.status === 406) {
               // This representation is not supported; try the next one
@@ -154,14 +175,18 @@ describe('10.1 HTTP(S) Binding', function() {
         //   (as specified in RFC3986 Section 2.1)"
         // From the server side: the resolver MUST accept URL-encoded DIDs
         // because clients MUST send URL-encoded DIDs when options are present.
-        it('GET binding: resolver MUST accept URL-encoded DIDs (required because clients MUST URL-encode when resolution options other than accept are provided)', async function() {
+        it('GET binding: resolver MUST accept URL-encoded DIDs ' +
+          '(required because clients MUST URL-encode when resolution ' +
+          'options other than accept are provided)', async function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
           const encodedDid = encodeURIComponent(did);
           const encodedUrl = addQueryParametersToUrl(
             `${endpoint}/${encodedDid}`, resolutionOptions
           );
-          const rv = await fetch(encodedUrl, {headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}});
+          const rv = await fetch(encodedUrl, {
+            headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}
+          });
           rv.ok.should.be.true;
           const resolutionResult = await rv.json();
           checkSuccessfulResolutionResult(resolutionResult);
@@ -172,21 +197,28 @@ describe('10.1 HTTP(S) Binding', function() {
 
       // Normative: "INVALID_DID → 400"
       for(const badDid of ['not-a-did', 'did:example']) {
-        it(`INVALID_DID error MUST map to HTTP status 400 (input: "${badDid}")`, async function() {
+        it('INVALID_DID error MUST map to HTTP status 400 ' +
+          `(input: "${badDid}")`, async function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
           const url = `${endpoint}/${badDid}`;
-          const rv = await fetch(url, {headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}});
+          const rv = await fetch(url, {
+            headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}
+          });
           rv.status.should.equal(ERROR_STATUS_CODES.INVALID_DID);
         });
       }
 
       // Normative: "METHOD_NOT_SUPPORTED → 501"
-      it('METHOD_NOT_SUPPORTED error MUST map to HTTP status 501', async function() {
+      it('METHOD_NOT_SUPPORTED error MUST map to HTTP ' +
+        'status 501', async function() {
         this.test.link =
           'https://w3c.github.io/did-resolution/#bindings-https';
-        const url = `${endpoint}/did:unsupported:123456789abcdefghi`;
-        const rv = await fetch(url, {headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}});
+        const unsupportedDid = 'did:unsupported:123456789abcdefghi';
+        const url = `${endpoint}/${unsupportedDid}`;
+        const rv = await fetch(url, {
+          headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}
+        });
         rv.status.should.equal(ERROR_STATUS_CODES.METHOD_NOT_SUPPORTED);
       });
 
@@ -197,7 +229,9 @@ describe('10.1 HTTP(S) Binding', function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
           const url = `${endpoint}/${notFoundDid}`;
-          const rv = await fetch(url, {headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}});
+          const rv = await fetch(url, {
+            headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}
+          });
           rv.status.should.equal(ERROR_STATUS_CODES.NOT_FOUND);
           const resolutionResult = await rv.json();
           checkErrorResolutionResult(resolutionResult,
@@ -206,19 +240,24 @@ describe('10.1 HTTP(S) Binding', function() {
       }
 
       // Normative: "REPRESENTATION_NOT_SUPPORTED → 406"
-      it('REPRESENTATION_NOT_SUPPORTED error MUST map to HTTP status 406', async function() {
+      it('REPRESENTATION_NOT_SUPPORTED error MUST map to HTTP ' +
+        'status 406', async function() {
         this.test.link =
           'https://w3c.github.io/did-resolution/#bindings-https';
         const {did} = validDids[0];
         const url = `${endpoint}/${did}`;
         // Request an Accept type the resolver is very unlikely to support
+        const unsupportedType =
+          'application/x-unsupported-did-representation-99999';
         const rv = await fetch(url, {
-          headers: {Accept: 'application/x-unsupported-did-representation-99999'}
+          headers: {Accept: unsupportedType}
         });
-        // Only assert 406 if the resolver signals an unsupported representation;
-        // some resolvers may fall back to a default representation (200)
+        // Only assert 406 if the resolver signals an unsupported
+        // representation; some resolvers may fall back to a default
+        // representation (200)
         if(rv.status !== 200) {
-          rv.status.should.equal(ERROR_STATUS_CODES.REPRESENTATION_NOT_SUPPORTED);
+          expect(rv.status).to.equal(
+            ERROR_STATUS_CODES.REPRESENTATION_NOT_SUPPORTED);
         }
       });
 
@@ -227,25 +266,29 @@ describe('10.1 HTTP(S) Binding', function() {
       //   The HTTP response status code MUST be 410"
       // Requires deactivated DID to be set in the implementation config
       if(deactivatedDid) {
-        it('If deactivated metadata property is true, HTTP response status MUST be 410', async function() {
+        it('If deactivated metadata property is true, ' +
+          'HTTP response status MUST be 410', async function() {
           this.test.link =
             'https://w3c.github.io/did-resolution/#bindings-https';
           const url = `${endpoint}/${deactivatedDid}`;
-          const rv = await fetch(url, {headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}});
+          const rv = await fetch(url, {
+            headers: {Accept: DID_RESOLUTION_MEDIA_TYPE}
+          });
           rv.status.should.equal(410);
         });
       }
 
       // --- DID URL Dereferencing binding ---
-      // Tests below run only when the implementation config provides derefUrls.
-      // Add `derefUrls: [{didUrl, dereferencingOptions}]` to supportedDids in
-      // the implementation config to enable these tests.
+      // Tests below run only when the implementation config provides
+      // derefUrls. Add `derefUrls: [{didUrl, dereferencingOptions}]` to
+      // supportedDids in the implementation config to enable these tests.
 
       if(derefUrls.length > 0) {
         derefUrls.forEach(({didUrl, dereferencingOptions}) => {
           const hasOptions = dereferencingOptions &&
             Object.keys(dereferencingOptions).length > 0;
-          // Per spec: DID URL MUST be URL-encoded when extra options are present
+          // Per spec: DID URL MUST be URL-encoded when extra options
+          // are present
           const encodedDidUrl = hasOptions ?
             encodeURIComponent(didUrl) : didUrl;
           const baseUrl = `${endpoint}/${encodedDidUrl}`;
@@ -254,7 +297,9 @@ describe('10.1 HTTP(S) Binding', function() {
           // Normative: "If the value of the Content-Type HTTP response header
           //   is application/did-url-dereferencing: The HTTP body MUST contain
           //   a DID URL dereferencing result"
-          it(`If Accept is application/did-url-dereferencing, HTTP body MUST contain a DID URL dereferencing result (${didUrl})`, async function() {
+          it('If Accept is application/did-url-dereferencing, HTTP body ' +
+            'MUST contain a DID URL dereferencing result ' +
+            `(${didUrl})`, async function() {
             this.test.link =
               'https://w3c.github.io/did-resolution/#bindings-https';
             const rv = await fetch(url, {
@@ -272,7 +317,9 @@ describe('10.1 HTTP(S) Binding', function() {
           // Normative: "If the function is successful and returns a
           //   contentStream with any other contentType:
           //   The HTTP response status code MUST be 200"
-          it(`If DID URL dereferencing returns a non-uri-list contentStream, HTTP status MUST be 200 (${didUrl})`, async function() {
+          it('If DID URL dereferencing returns a non-uri-list ' +
+            'contentStream, HTTP status MUST be 200 ' +
+            `(${didUrl})`, async function() {
             this.test.link =
               'https://w3c.github.io/did-resolution/#bindings-https';
             const rv = await fetch(url, {
@@ -287,7 +334,9 @@ describe('10.1 HTTP(S) Binding', function() {
           // Normative: "The HTTP response MUST contain a Content-Type HTTP
           //   response header. Its value MUST be the value of the contentType
           //   metadata property in the dereferencingMetadata"
-          it(`If DID URL dereferencing succeeds, Content-Type MUST equal contentType in dereferencingMetadata (${didUrl})`, async function() {
+          it('If DID URL dereferencing succeeds, Content-Type MUST ' +
+            'equal contentType in dereferencingMetadata ' +
+            `(${didUrl})`, async function() {
             this.test.link =
               'https://w3c.github.io/did-resolution/#bindings-https';
             const rv = await fetch(url, {
@@ -310,7 +359,8 @@ describe('10.1 HTTP(S) Binding', function() {
           //   that is the result of the DID URL dereferencing function, in the
           //   representation corresponding to the Content-Type HTTP response
           //   header"
-          it(`HTTP response body MUST contain the contentStream from DID URL dereferencing (${didUrl})`, async function() {
+          it('HTTP response body MUST contain the contentStream ' +
+            `from DID URL dereferencing (${didUrl})`, async function() {
             this.test.link =
               'https://w3c.github.io/did-resolution/#bindings-https';
             const rv = await fetch(url, {
@@ -318,17 +368,23 @@ describe('10.1 HTTP(S) Binding', function() {
             });
             if(rv.status === 200) {
               const body = await rv.text();
-              expect(body, 'response body must not be empty').to.not.be.empty;
+              expect(body,
+                'response body must not be empty').to.not.be.empty;
             }
           });
 
           // Normative: "set the Accept HTTP request header to the value of the
           //   accept dereferencing option to request only the contentStream
           //   value of the result"
-          it(`If Accept is set to a content media type, response body MUST contain only the contentStream (not the full dereferencing result) (${didUrl})`, async function() {
+          it('If Accept is set to a content media type, response body ' +
+            'MUST contain only the contentStream ' +
+            '(not the full dereferencing result) ' +
+            `(${didUrl})`, async function() {
             this.test.link =
               'https://w3c.github.io/did-resolution/#bindings-https';
-            const rv = await fetch(url, {headers: {Accept: 'application/json'}});
+            const rv = await fetch(url, {
+              headers: {Accept: 'application/json'}
+            });
             if(rv.status === 406) {
               // Representation not supported; test is vacuously satisfied
               return;
@@ -354,7 +410,8 @@ describe('10.1 HTTP(S) Binding', function() {
           //   contentStream and a contentType metadata property with the value
           //   text/uri-list in the dereferencingMetadata:
           //   The HTTP response status code MUST be 303"
-          it(`If contentType is text/uri-list, HTTP response status MUST be 303 (${didUrl})`, async function() {
+          it('If contentType is text/uri-list, HTTP response status ' +
+            `MUST be 303 (${didUrl})`, async function() {
             this.test.link =
               'https://w3c.github.io/did-resolution/#bindings-https';
             const rv = await fetch(url, {
@@ -367,7 +424,9 @@ describe('10.1 HTTP(S) Binding', function() {
           // Normative: "The HTTP response MUST contain a Location header.
           //   The value of this header MUST be the selected DID service
           //   endpoint URL"
-          it(`If 303 response, HTTP response MUST contain a Location header with the selected DID service endpoint URL (${didUrl})`, async function() {
+          it('If 303 response, HTTP response MUST contain a Location ' +
+            'header with the selected DID service endpoint URL ' +
+            `(${didUrl})`, async function() {
             this.test.link =
               'https://w3c.github.io/did-resolution/#bindings-https';
             const rv = await fetch(url, {
@@ -381,7 +440,8 @@ describe('10.1 HTTP(S) Binding', function() {
           });
 
           // Normative: "the HTTP response body MUST be empty"
-          it(`If 303 response, HTTP response body MUST be empty (${didUrl})`, async function() {
+          it('If 303 response, HTTP response body MUST be empty ' +
+            `(${didUrl})`, async function() {
             this.test.link =
               'https://w3c.github.io/did-resolution/#bindings-https';
             const rv = await fetch(url, {
