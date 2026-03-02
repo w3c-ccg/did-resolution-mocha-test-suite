@@ -22,9 +22,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:210f9f03-cc7c-4dcb-b2a7-6a754bd0ceb5",
+              "_testId": "urn:uuid:3eb4ad6e-4ede-4b36-ad00-6fb844b94786",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All HTTPS bindings MUST use TLS"
@@ -49,9 +49,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:88d47de1-61ef-4637-935e-b527019fd892",
+              "_testId": "urn:uuid:7c04483c-a6ce-4156-8347-3aa3631f1421",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All conforming DID resolvers MUST implement the GET version of the HTTPS binding"
@@ -63,12 +63,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 606,
+                "_idleStart": 539,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 315,
+              "duration": 242,
               "state": "passed",
               "speed": "slow"
             },
@@ -85,9 +85,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:86028402-12de-4d40-a0be-22be80ab70ed",
+              "_testId": "urn:uuid:3a44a284-bfd0-4346-952a-a026143b7993",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If Accept is application/did-resolution, HTTP body MUST contain a DID resolution result"
@@ -99,12 +99,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 855,
+                "_idleStart": 742,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 26,
+              "duration": 27,
               "state": "passed",
               "speed": "fast"
             },
@@ -121,9 +121,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:eaf7ea80-7727-4bac-a7c1-2dd26b730a54",
+              "_testId": "urn:uuid:4a1c0e8f-c4dc-4346-8749-8f9e3a5efcf9",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If function is successful and returns a didDocument, HTTP response status code MUST be 200"
@@ -135,12 +135,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 881,
+                "_idleStart": 769,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 20,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             },
@@ -157,9 +157,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:87b84429-e05b-4d4e-b116-07f1dad66072",
+              "_testId": "urn:uuid:de9f392d-8098-4920-9cfe-6cf5a0cbe924",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "HTTP response MUST contain a Content-Type header whose value MUST equal contentType in didResolutionMetadata"
@@ -171,12 +171,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 902,
+                "_idleStart": 789,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 23,
+              "duration": 20,
               "state": "passed",
               "speed": "fast"
             },
@@ -193,9 +193,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:7e715fa8-4e99-4127-b2ce-5dd84e4d6e15",
+              "_testId": "urn:uuid:be9b6777-501e-484c-aa8d-450d2fa8bd3c",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "HTTP response body MUST contain the didDocument result of the DID resolution function"
@@ -207,12 +207,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 925,
+                "_idleStart": 809,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 21,
+              "duration": 20,
               "state": "passed",
               "speed": "fast"
             },
@@ -229,9 +229,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:472be471-6adc-44d4-aacc-aa4b9808f2d6",
+              "_testId": "urn:uuid:ee23fdf7-498d-4869-b755-88733c62ed13",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If Accept is set to a DID representation media type, response body MUST contain only the didDocument (not the full resolution result)"
@@ -243,12 +243,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 946,
+                "_idleStart": 828,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 21,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             },
@@ -265,9 +265,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:2c2a11bb-ca06-4437-8ddc-71aaff506810",
+              "_testId": "urn:uuid:3d6354b5-73c4-41ea-9371-c8f9f71e33e2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "GET binding: resolver MUST accept URL-encoded DIDs (required because clients MUST URL-encode when resolution options other than accept are provided)"
@@ -279,12 +279,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 967,
+                "_idleStart": 847,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 22,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             },
@@ -301,9 +301,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:64f608c0-d67a-4440-a952-5afa3a99d3bb",
+              "_testId": "urn:uuid:87511cf9-a0c9-47a5-bca6-157907da90c4",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"not-a-did\")"
@@ -315,12 +315,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 989,
+                "_idleStart": 867,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 14,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             },
@@ -337,9 +337,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:41540462-0134-4466-b56d-998bad96ccc8",
+              "_testId": "urn:uuid:b020803c-e71a-4cce-aece-f32baf27a5cb",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"did:example\")"
@@ -351,12 +351,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1003,
+                "_idleStart": 880,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             },
@@ -373,9 +373,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:e6ad8121-cfa2-495d-925b-2071e6f52d88",
+              "_testId": "urn:uuid:9e9bdcef-a226-430c-91bb-136fd4f052e9",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "METHOD_NOT_SUPPORTED error MUST map to HTTP status 501"
@@ -387,12 +387,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1017,
+                "_idleStart": 893,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 19,
+              "duration": 16,
               "state": "passed",
               "speed": "fast"
             },
@@ -409,9 +409,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:ff0402c6-d822-438a-89fd-4195949929f0",
+              "_testId": "urn:uuid:71aa4308-42e1-46fe-9e21-75e8e82e05d4",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "REPRESENTATION_NOT_SUPPORTED error MUST map to HTTP status 406"
@@ -423,12 +423,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1036,
+                "_idleStart": 910,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 19,
+              "duration": 20,
               "state": "passed",
               "speed": "fast"
             }
@@ -449,7 +449,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
               "originalTitle": "\"before each\" hook: setupRow",
@@ -468,9 +468,9 @@
           "_onlyTests": [],
           "_onlySuites": [],
           "delayed": false,
-          "parent": "BZx8CT9wyyJv9_hZ3C-LY",
+          "parent": "zyW9NjB8cs71DKhjXwIF2",
           "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-          "_testId": "urn:uuid:d3050e1b-d596-4a7a-b268-eb2cf8239873"
+          "_testId": "urn:uuid:44d499eb-b308-4da7-9697-64ccdacf649d"
         }
       ],
       "root": false,
@@ -486,13 +486,13 @@
       "_onlyTests": [],
       "_onlySuites": [],
       "delayed": false,
-      "parent": "D-WBAVDi1SR7_UBq-__r8",
+      "parent": "xnlhzoaQFFmR0FSz-v_pO",
       "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
       "matrix": true,
       "report": true,
       "rowLabel": "Test Name",
       "columnLabel": "Implementer",
-      "_testId": "urn:uuid:5d2b390b-818d-4e60-aea2-9c32cf1fa808",
+      "_testId": "urn:uuid:f5ca3ee8-915c-4f39-97e6-c47e459e3e06",
       "columns": [
         "DIF"
       ],
@@ -514,9 +514,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:210f9f03-cc7c-4dcb-b2a7-6a754bd0ceb5",
+              "_testId": "urn:uuid:3eb4ad6e-4ede-4b36-ad00-6fb844b94786",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All HTTPS bindings MUST use TLS"
@@ -547,9 +547,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:88d47de1-61ef-4637-935e-b527019fd892",
+              "_testId": "urn:uuid:7c04483c-a6ce-4156-8347-3aa3631f1421",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All conforming DID resolvers MUST implement the GET version of the HTTPS binding"
@@ -561,12 +561,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 606,
+                "_idleStart": 539,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 315,
+              "duration": 242,
               "state": "passed",
               "speed": "slow"
             }
@@ -589,9 +589,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:86028402-12de-4d40-a0be-22be80ab70ed",
+              "_testId": "urn:uuid:3a44a284-bfd0-4346-952a-a026143b7993",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If Accept is application/did-resolution, HTTP body MUST contain a DID resolution result"
@@ -603,12 +603,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 855,
+                "_idleStart": 742,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 26,
+              "duration": 27,
               "state": "passed",
               "speed": "fast"
             }
@@ -631,9 +631,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:eaf7ea80-7727-4bac-a7c1-2dd26b730a54",
+              "_testId": "urn:uuid:4a1c0e8f-c4dc-4346-8749-8f9e3a5efcf9",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If function is successful and returns a didDocument, HTTP response status code MUST be 200"
@@ -645,12 +645,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 881,
+                "_idleStart": 769,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 20,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             }
@@ -673,9 +673,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:87b84429-e05b-4d4e-b116-07f1dad66072",
+              "_testId": "urn:uuid:de9f392d-8098-4920-9cfe-6cf5a0cbe924",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "HTTP response MUST contain a Content-Type header whose value MUST equal contentType in didResolutionMetadata"
@@ -687,12 +687,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 902,
+                "_idleStart": 789,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 23,
+              "duration": 20,
               "state": "passed",
               "speed": "fast"
             }
@@ -715,9 +715,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:7e715fa8-4e99-4127-b2ce-5dd84e4d6e15",
+              "_testId": "urn:uuid:be9b6777-501e-484c-aa8d-450d2fa8bd3c",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "HTTP response body MUST contain the didDocument result of the DID resolution function"
@@ -729,12 +729,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 925,
+                "_idleStart": 809,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 21,
+              "duration": 20,
               "state": "passed",
               "speed": "fast"
             }
@@ -757,9 +757,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:472be471-6adc-44d4-aacc-aa4b9808f2d6",
+              "_testId": "urn:uuid:ee23fdf7-498d-4869-b755-88733c62ed13",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If Accept is set to a DID representation media type, response body MUST contain only the didDocument (not the full resolution result)"
@@ -771,12 +771,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 946,
+                "_idleStart": 828,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 21,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             }
@@ -799,9 +799,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:2c2a11bb-ca06-4437-8ddc-71aaff506810",
+              "_testId": "urn:uuid:3d6354b5-73c4-41ea-9371-c8f9f71e33e2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "GET binding: resolver MUST accept URL-encoded DIDs (required because clients MUST URL-encode when resolution options other than accept are provided)"
@@ -813,12 +813,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 967,
+                "_idleStart": 847,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 22,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             }
@@ -841,9 +841,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:64f608c0-d67a-4440-a952-5afa3a99d3bb",
+              "_testId": "urn:uuid:87511cf9-a0c9-47a5-bca6-157907da90c4",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"not-a-did\")"
@@ -855,12 +855,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 989,
+                "_idleStart": 867,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 14,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             }
@@ -883,9 +883,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:41540462-0134-4466-b56d-998bad96ccc8",
+              "_testId": "urn:uuid:b020803c-e71a-4cce-aece-f32baf27a5cb",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"did:example\")"
@@ -897,12 +897,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1003,
+                "_idleStart": 880,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             }
@@ -925,9 +925,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:e6ad8121-cfa2-495d-925b-2071e6f52d88",
+              "_testId": "urn:uuid:9e9bdcef-a226-430c-91bb-136fd4f052e9",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "METHOD_NOT_SUPPORTED error MUST map to HTTP status 501"
@@ -939,12 +939,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1017,
+                "_idleStart": 893,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 19,
+              "duration": 16,
               "state": "passed",
               "speed": "fast"
             }
@@ -967,9 +967,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "AjMQ9iHqi9eYKYbvyYs6h",
+              "parent": "ghOuPzbWJ95UdghC7u-BK",
               "ctx": null,
-              "_testId": "urn:uuid:ff0402c6-d822-438a-89fd-4195949929f0",
+              "_testId": "urn:uuid:71aa4308-42e1-46fe-9e21-75e8e82e05d4",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "REPRESENTATION_NOT_SUPPORTED error MUST map to HTTP status 406"
@@ -981,12 +981,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1036,
+                "_idleStart": 910,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 19,
+              "duration": 20,
               "state": "passed",
               "speed": "fast"
             }
@@ -1016,16 +1016,16 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:63ac82bc-7751-4cda-a0ea-a41d6de7f0e2",
+              "_testId": "urn:uuid:e4b7ed4c-73a6-4d5a-9059-42b8bc22d666",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Implementation has at least one valid DID to test"
               },
               "_events": {},
               "_eventsCount": 1,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast"
             },
@@ -1042,9 +1042,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:72798783-fc5e-4a41-b419-5931d833dee5",
+              "_testId": "urn:uuid:b2ae7ae1-8de4-4079-8230-45d93298d088",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All conformant DID resolvers MUST implement the DID resolution function for at least one DID method"
@@ -1055,13 +1055,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1057,
+                "_idleStart": 931,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=All%20conforming%20DID%20resolvers%20MUST%20implement%20the%20DID%20resolution%20function%20for%20at%20least%20one%20DID%20method",
-              "duration": 20,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             },
@@ -1078,9 +1078,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:da409337-31f7-40a6-a6e9-442875716497",
+              "_testId": "urn:uuid:96748a38-c31b-4137-9c4f-3efa87373b87",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The resolutionOptions input is REQUIRED, but the structure MAY be empty."
@@ -1092,7 +1092,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1078,
+                "_idleStart": 950,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -1114,9 +1114,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:9bd20f2d-7a99-4d5e-8e06-7b0ff6abd794",
+              "_testId": "urn:uuid:2f5e7242-5c33-4a82-9617-924194ed7249",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The didResolutionMetadata structure is REQUIRED."
@@ -1127,13 +1127,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1078,
+                "_idleStart": 951,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=A%20metadata%20structure%20consisting%20of%20values%20relating%20to%20the%20results%20of%20the%20DID%20resolution%20process.%20This%20structure%20is%20REQUIRED",
-              "duration": 20,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             },
@@ -1150,9 +1150,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:58729998-8a5b-470e-9e11-2a93ffccccc1",
+              "_testId": "urn:uuid:016efd24-db03-48c3-83db-de61ed438277",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If resolution is successful, the didDocument MUST be a conformant DID document"
@@ -1163,7 +1163,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1099,
+                "_idleStart": 969,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -1186,9 +1186,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:7a877953-2148-438d-9cb8-c77d3a6cbbac",
+              "_testId": "urn:uuid:17b9e1dd-b4a3-48a7-891b-da8da9e82667",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The value of id in the resolved DID document MUST match the DID that was resolved"
@@ -1199,20 +1199,20 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1119,
+                "_idleStart": 990,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20value%20of%20id%20in%20the%20resolved%20DID%20document%20MUST%20be%20string%20equal%20to%20the%20DID%20that%20was%20resolved.",
-              "duration": 19,
+              "duration": 20,
               "state": "passed",
               "speed": "fast"
             },
             {
               "type": "test",
               "title": "If the resolution is successful, the `didDocumentMetadata` MUST be a metadata structure",
-              "body": "async function() {\n          const url = `${endpoint}/${did}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20metadata%20structure`;\n          rv.ok.should.be.true;\n          rv.status.should.equal(200);\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.be.an('object');\n        }",
+              "body": "async function() {\n          const url = `${endpoint}/${did}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20metadata%20structure`;\n          rv.ok.should.be.true;\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.be.an('object');\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1222,9 +1222,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:48cfa990-4d14-462f-9a2b-fc9140c897e8",
+              "_testId": "urn:uuid:cb9c4569-ab61-4b25-bdf2-8580e1f86db9",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is successful, the `didDocumentMetadata` MUST be a metadata structure"
@@ -1235,7 +1235,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1139,
+                "_idleStart": 1010,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -1248,7 +1248,7 @@
             {
               "type": "test",
               "title": "The did input to the resolve function is REQUIRED",
-              "body": "async function() {\n        const url = `${endpoint}/`; // No DID provided\n        const rv = await fetch(url, fetchOptions);\n        this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n        rv.ok.should.be.false;\n        rv.status.should.equal(400);\n\n        // QUESTION: Should this still have a problem details error?\n        // Currently the spec doesnt define how to handle this case\n      }",
+              "body": "async function() {\n        const url = `${endpoint}/`; // No DID provided\n        const rv = await fetch(url, fetchOptions);\n        this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n        rv.ok.should.be.false;\n\n        // QUESTION: Should this still have a problem details error?\n        // Currently the spec doesnt define how to handle this case\n      }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1258,9 +1258,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:5e6c3a3a-ce2d-4ebb-b129-1dcf1857fbe3",
+              "_testId": "urn:uuid:8f57397e-10c2-4df6-8c8b-a741e432f3b2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input to the resolve function is REQUIRED"
@@ -1271,20 +1271,20 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1159,
+                "_idleStart": 1029,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             },
             {
               "type": "test",
               "title": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0.",
-              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n          rv.ok.should.be.false;\n          rv.status.should.equal(400);\n        }",
+              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n          rv.ok.should.be.false;\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1294,9 +1294,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:e5a79f7a-41c9-4910-948c-c358a9632b11",
+              "_testId": "urn:uuid:92e15878-11b5-4dda-ada5-8f3a48bc6b08",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0."
@@ -1307,13 +1307,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1171,
+                "_idleStart": 1042,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 13,
+              "duration": 11,
               "state": "passed",
               "speed": "fast"
             },
@@ -1330,9 +1330,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:01123b08-7f23-48f0-963f-f615b5e210f1",
+              "_testId": "urn:uuid:db4a562c-1275-4322-ad60-5b9db164cc83",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Produces a INVALID_DID error and conformant resolution result"
@@ -1343,13 +1343,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1185,
+                "_idleStart": 1054,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Validate%20that%20the%20input%20DID%20conforms%20to%20the%20did%20rule%20of%20the%20DID%20Syntax.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 14,
+              "duration": 13,
               "state": "failed",
               "err": {
                 "message": "expected 'INVALID_DID' to equal 'https://www.w3.org/ns/did#INVALID_DID'",
@@ -1359,13 +1359,13 @@
                 "operator": "strictEqual",
                 "name": "AssertionError",
                 "ok": false,
-                "stack": "AssertionError: expected 'INVALID_DID' to equal 'https://www.w3.org/ns/did#INVALID_DID'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:127:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+                "stack": "AssertionError: expected 'INVALID_DID' to equal 'https://www.w3.org/ns/did#INVALID_DID'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:124:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
               }
             },
             {
               "type": "test",
               "title": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process.",
-              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.`;\n          rv.ok.should.be.false;\n          rv.status.should.equal(400);\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didResolutionMetadata');\n          resolutionResult.didResolutionMetadata\n            .should.have.property('error');\n        }",
+              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.`;\n          rv.ok.should.be.false;\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didResolutionMetadata');\n          resolutionResult.didResolutionMetadata\n            .should.have.property('error');\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1375,9 +1375,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:89e77c6d-84b0-4040-a1b6-71fcfc786c51",
+              "_testId": "urn:uuid:4ae3ec6a-16f3-4a6d-91fb-54d388e081dd",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process."
@@ -1388,20 +1388,20 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1202,
+                "_idleStart": 1070,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.",
-              "duration": 14,
+              "duration": 13,
               "state": "passed",
               "speed": "fast"
             },
             {
               "type": "test",
               "title": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure",
-              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.`;\n          rv.ok.should.be.false;\n          rv.status.should.equal(400);\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.deep.equal({});\n        }",
+              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.`;\n          rv.ok.should.be.false;\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.deep.equal({});\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1411,9 +1411,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:f1d841b6-3204-4d1d-951b-f1b4b2678e6a",
+              "_testId": "urn:uuid:6c0f5dcf-5344-4bad-b7ca-b54401694524",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure"
@@ -1424,20 +1424,20 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1215,
+                "_idleStart": 1083,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.",
-              "duration": 14,
+              "duration": 13,
               "state": "passed",
               "speed": "fast"
             },
             {
               "type": "test",
               "title": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0.",
-              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n          rv.ok.should.be.false;\n          rv.status.should.equal(400);\n        }",
+              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n          rv.ok.should.be.false;\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1447,9 +1447,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:7578070d-bc65-41c8-b5a6-5899086b0bb1",
+              "_testId": "urn:uuid:6209293c-0624-484d-b435-3e1cd55ed05e",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0."
@@ -1460,13 +1460,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1229,
+                "_idleStart": 1096,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             },
@@ -1483,9 +1483,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:6ab177ec-5709-4752-81e4-0a94f7cf6eca",
+              "_testId": "urn:uuid:415db072-16f9-4479-a205-9921433751a5",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Produces a INVALID_DID error and conformant resolution result"
@@ -1496,13 +1496,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1242,
+                "_idleStart": 1108,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Validate%20that%20the%20input%20DID%20conforms%20to%20the%20did%20rule%20of%20the%20DID%20Syntax.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 15,
+              "duration": 13,
               "state": "failed",
               "err": {
                 "message": "expected 'INVALID_DID' to equal 'https://www.w3.org/ns/did#INVALID_DID'",
@@ -1512,13 +1512,13 @@
                 "operator": "strictEqual",
                 "name": "AssertionError",
                 "ok": false,
-                "stack": "AssertionError: expected 'INVALID_DID' to equal 'https://www.w3.org/ns/did#INVALID_DID'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:127:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+                "stack": "AssertionError: expected 'INVALID_DID' to equal 'https://www.w3.org/ns/did#INVALID_DID'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:124:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
               }
             },
             {
               "type": "test",
               "title": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process.",
-              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.`;\n          rv.ok.should.be.false;\n          rv.status.should.equal(400);\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didResolutionMetadata');\n          resolutionResult.didResolutionMetadata\n            .should.have.property('error');\n        }",
+              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.`;\n          rv.ok.should.be.false;\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didResolutionMetadata');\n          resolutionResult.didResolutionMetadata\n            .should.have.property('error');\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1528,9 +1528,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:64bfa937-70e2-49b2-aa81-6ebfb822a1f3",
+              "_testId": "urn:uuid:c287f2a5-42b7-44ef-9a6f-16a298707072",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process."
@@ -1541,20 +1541,20 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1257,
+                "_idleStart": 1122,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.",
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             },
             {
               "type": "test",
               "title": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure",
-              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.`;\n          rv.ok.should.be.false;\n          rv.status.should.equal(400);\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.deep.equal({});\n        }",
+              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.`;\n          rv.ok.should.be.false;\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.deep.equal({});\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1564,9 +1564,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:9f378bb6-c4da-4a95-abc9-760e2cb84689",
+              "_testId": "urn:uuid:5a14f59e-dea3-42c5-a682-43cdfdeb38c8",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure"
@@ -1577,13 +1577,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1271,
+                "_idleStart": 1135,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.",
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             },
@@ -1600,9 +1600,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:3918763e-503a-440f-8a31-3f2582de7c56",
+              "_testId": "urn:uuid:744f8abd-1fcb-4468-b3ab-770f3fa9f480",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the DID method is not supported, produces a METHOD_NOT_SUPPORTED error and conformant resolution result"
@@ -1613,13 +1613,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1285,
+                "_idleStart": 1147,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Determine%20whether%20the%20DID%20method%20of%20the%20input%20DID%20is%20supported%20by%20the%20DID%20resolver%20that%20implements%20this%20algorithm.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 18,
+              "duration": 17,
               "state": "failed",
               "err": {
                 "message": "expected 'METHOD_NOT_SUPPORTED' to equal 'https://www.w3.org/ns/did#METHOD_NOT_…'",
@@ -1629,7 +1629,7 @@
                 "operator": "strictEqual",
                 "name": "AssertionError",
                 "ok": false,
-                "stack": "AssertionError: expected 'METHOD_NOT_SUPPORTED' to equal 'https://www.w3.org/ns/did#METHOD_NOT_…'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:167:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+                "stack": "AssertionError: expected 'METHOD_NOT_SUPPORTED' to equal 'https://www.w3.org/ns/did#METHOD_NOT_…'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:162:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
               }
             }
           ],
@@ -1649,7 +1649,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
               "originalTitle": "\"before each\" hook: setupRow",
@@ -1668,9 +1668,9 @@
           "_onlyTests": [],
           "_onlySuites": [],
           "delayed": false,
-          "parent": "pFi_9OqGw51WdDn9K6qUc",
+          "parent": "b7H8-_S7bn1waqiu9LnqK",
           "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-          "_testId": "urn:uuid:83112608-9d17-4252-8b27-657cd448554d"
+          "_testId": "urn:uuid:4adff354-ad8c-4daa-b560-fa5ccf0e92d6"
         }
       ],
       "root": false,
@@ -1686,13 +1686,13 @@
       "_onlyTests": [],
       "_onlySuites": [],
       "delayed": false,
-      "parent": "D-WBAVDi1SR7_UBq-__r8",
+      "parent": "xnlhzoaQFFmR0FSz-v_pO",
       "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
       "matrix": true,
       "report": true,
       "rowLabel": "Test Name",
       "columnLabel": "Implementer",
-      "_testId": "urn:uuid:f4c733bd-ed71-4038-95ea-d1ea284f0967",
+      "_testId": "urn:uuid:d20b9a0d-97bb-40cb-a5cc-3984219a8120",
       "columns": [
         "DIF"
       ],
@@ -1713,16 +1713,16 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:63ac82bc-7751-4cda-a0ea-a41d6de7f0e2",
+              "_testId": "urn:uuid:e4b7ed4c-73a6-4d5a-9059-42b8bc22d666",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Implementation has at least one valid DID to test"
               },
               "_events": {},
               "_eventsCount": 1,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast"
             }
@@ -1745,9 +1745,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:72798783-fc5e-4a41-b419-5931d833dee5",
+              "_testId": "urn:uuid:b2ae7ae1-8de4-4079-8230-45d93298d088",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All conformant DID resolvers MUST implement the DID resolution function for at least one DID method"
@@ -1758,13 +1758,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1057,
+                "_idleStart": 931,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=All%20conforming%20DID%20resolvers%20MUST%20implement%20the%20DID%20resolution%20function%20for%20at%20least%20one%20DID%20method",
-              "duration": 20,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             }
@@ -1787,9 +1787,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:da409337-31f7-40a6-a6e9-442875716497",
+              "_testId": "urn:uuid:96748a38-c31b-4137-9c4f-3efa87373b87",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The resolutionOptions input is REQUIRED, but the structure MAY be empty."
@@ -1801,7 +1801,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1078,
+                "_idleStart": 950,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -1829,9 +1829,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:9bd20f2d-7a99-4d5e-8e06-7b0ff6abd794",
+              "_testId": "urn:uuid:2f5e7242-5c33-4a82-9617-924194ed7249",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The didResolutionMetadata structure is REQUIRED."
@@ -1842,13 +1842,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1078,
+                "_idleStart": 951,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=A%20metadata%20structure%20consisting%20of%20values%20relating%20to%20the%20results%20of%20the%20DID%20resolution%20process.%20This%20structure%20is%20REQUIRED",
-              "duration": 20,
+              "duration": 19,
               "state": "passed",
               "speed": "fast"
             }
@@ -1871,9 +1871,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:58729998-8a5b-470e-9e11-2a93ffccccc1",
+              "_testId": "urn:uuid:016efd24-db03-48c3-83db-de61ed438277",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If resolution is successful, the didDocument MUST be a conformant DID document"
@@ -1884,7 +1884,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1099,
+                "_idleStart": 969,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -1913,9 +1913,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:7a877953-2148-438d-9cb8-c77d3a6cbbac",
+              "_testId": "urn:uuid:17b9e1dd-b4a3-48a7-891b-da8da9e82667",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The value of id in the resolved DID document MUST match the DID that was resolved"
@@ -1926,13 +1926,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1119,
+                "_idleStart": 990,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20value%20of%20id%20in%20the%20resolved%20DID%20document%20MUST%20be%20string%20equal%20to%20the%20DID%20that%20was%20resolved.",
-              "duration": 19,
+              "duration": 20,
               "state": "passed",
               "speed": "fast"
             }
@@ -1945,7 +1945,7 @@
             {
               "type": "test",
               "title": "If the resolution is successful, the `didDocumentMetadata` MUST be a metadata structure",
-              "body": "async function() {\n          const url = `${endpoint}/${did}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20metadata%20structure`;\n          rv.ok.should.be.true;\n          rv.status.should.equal(200);\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.be.an('object');\n        }",
+              "body": "async function() {\n          const url = `${endpoint}/${did}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20metadata%20structure`;\n          rv.ok.should.be.true;\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.be.an('object');\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1955,9 +1955,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:48cfa990-4d14-462f-9a2b-fc9140c897e8",
+              "_testId": "urn:uuid:cb9c4569-ab61-4b25-bdf2-8580e1f86db9",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is successful, the `didDocumentMetadata` MUST be a metadata structure"
@@ -1968,7 +1968,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1139,
+                "_idleStart": 1010,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -1987,7 +1987,7 @@
             {
               "type": "test",
               "title": "The did input to the resolve function is REQUIRED",
-              "body": "async function() {\n        const url = `${endpoint}/`; // No DID provided\n        const rv = await fetch(url, fetchOptions);\n        this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n        rv.ok.should.be.false;\n        rv.status.should.equal(400);\n\n        // QUESTION: Should this still have a problem details error?\n        // Currently the spec doesnt define how to handle this case\n      }",
+              "body": "async function() {\n        const url = `${endpoint}/`; // No DID provided\n        const rv = await fetch(url, fetchOptions);\n        this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n        rv.ok.should.be.false;\n\n        // QUESTION: Should this still have a problem details error?\n        // Currently the spec doesnt define how to handle this case\n      }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -1997,9 +1997,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:5e6c3a3a-ce2d-4ebb-b129-1dcf1857fbe3",
+              "_testId": "urn:uuid:8f57397e-10c2-4df6-8c8b-a741e432f3b2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input to the resolve function is REQUIRED"
@@ -2010,13 +2010,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1159,
+                "_idleStart": 1029,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             }
@@ -2029,7 +2029,7 @@
             {
               "type": "test",
               "title": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0.",
-              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n          rv.ok.should.be.false;\n          rv.status.should.equal(400);\n        }",
+              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.`;\n          rv.ok.should.be.false;\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -2039,9 +2039,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:7578070d-bc65-41c8-b5a6-5899086b0bb1",
+              "_testId": "urn:uuid:6209293c-0624-484d-b435-3e1cd55ed05e",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0."
@@ -2052,13 +2052,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1229,
+                "_idleStart": 1096,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             }
@@ -2081,9 +2081,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:6ab177ec-5709-4752-81e4-0a94f7cf6eca",
+              "_testId": "urn:uuid:415db072-16f9-4479-a205-9921433751a5",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Produces a INVALID_DID error and conformant resolution result"
@@ -2094,13 +2094,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1242,
+                "_idleStart": 1108,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Validate%20that%20the%20input%20DID%20conforms%20to%20the%20did%20rule%20of%20the%20DID%20Syntax.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 15,
+              "duration": 13,
               "state": "failed",
               "err": {
                 "message": "expected 'INVALID_DID' to equal 'https://www.w3.org/ns/did#INVALID_DID'",
@@ -2110,7 +2110,7 @@
                 "operator": "strictEqual",
                 "name": "AssertionError",
                 "ok": false,
-                "stack": "AssertionError: expected 'INVALID_DID' to equal 'https://www.w3.org/ns/did#INVALID_DID'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:127:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+                "stack": "AssertionError: expected 'INVALID_DID' to equal 'https://www.w3.org/ns/did#INVALID_DID'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:124:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
               }
             }
           ]
@@ -2122,7 +2122,7 @@
             {
               "type": "test",
               "title": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process.",
-              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.`;\n          rv.ok.should.be.false;\n          rv.status.should.equal(400);\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didResolutionMetadata');\n          resolutionResult.didResolutionMetadata\n            .should.have.property('error');\n        }",
+              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.`;\n          rv.ok.should.be.false;\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didResolutionMetadata');\n          resolutionResult.didResolutionMetadata\n            .should.have.property('error');\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -2132,9 +2132,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:64bfa937-70e2-49b2-aa81-6ebfb822a1f3",
+              "_testId": "urn:uuid:c287f2a5-42b7-44ef-9a6f-16a298707072",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process."
@@ -2145,13 +2145,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1257,
+                "_idleStart": 1122,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.",
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             }
@@ -2164,7 +2164,7 @@
             {
               "type": "test",
               "title": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure",
-              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.`;\n          rv.ok.should.be.false;\n          rv.status.should.equal(400);\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.deep.equal({});\n        }",
+              "body": "async function() {\n\n          const url = `${endpoint}/${badDid}`;\n          const rv = await fetch(url, fetchOptions);\n          this.test.link = `https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.`;\n          rv.ok.should.be.false;\n          const resolutionResult = await rv.json();\n          resolutionResult.should.have.property('didDocumentMetadata');\n          resolutionResult.didDocumentMetadata.should.deep.equal({});\n        }",
               "async": 0,
               "sync": true,
               "_timeout": 15000,
@@ -2174,9 +2174,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:9f378bb6-c4da-4a95-abc9-760e2cb84689",
+              "_testId": "urn:uuid:5a14f59e-dea3-42c5-a682-43cdfdeb38c8",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure"
@@ -2187,13 +2187,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1271,
+                "_idleStart": 1135,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.",
-              "duration": 13,
+              "duration": 12,
               "state": "passed",
               "speed": "fast"
             }
@@ -2216,9 +2216,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "xAwSWKHbcIKVFhOOJrHPb",
+              "parent": "Bb3nPUlZgm1_zegeL3lIo",
               "ctx": null,
-              "_testId": "urn:uuid:3918763e-503a-440f-8a31-3f2582de7c56",
+              "_testId": "urn:uuid:744f8abd-1fcb-4468-b3ab-770f3fa9f480",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the DID method is not supported, produces a METHOD_NOT_SUPPORTED error and conformant resolution result"
@@ -2229,13 +2229,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1285,
+                "_idleStart": 1147,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Determine%20whether%20the%20DID%20method%20of%20the%20input%20DID%20is%20supported%20by%20the%20DID%20resolver%20that%20implements%20this%20algorithm.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 18,
+              "duration": 17,
               "state": "failed",
               "err": {
                 "message": "expected 'METHOD_NOT_SUPPORTED' to equal 'https://www.w3.org/ns/did#METHOD_NOT_…'",
@@ -2245,7 +2245,7 @@
                 "operator": "strictEqual",
                 "name": "AssertionError",
                 "ok": false,
-                "stack": "AssertionError: expected 'METHOD_NOT_SUPPORTED' to equal 'https://www.w3.org/ns/did#METHOD_NOT_…'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:167:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+                "stack": "AssertionError: expected 'METHOD_NOT_SUPPORTED' to equal 'https://www.w3.org/ns/did#METHOD_NOT_…'\n    at checkErrorResolutionResult (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/assertions.js:31:8)\n    at Context.<anonymous> (file:///home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js:162:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
               }
             }
           ]
