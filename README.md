@@ -81,6 +81,7 @@ See the example below:
   }]
 ```
 
+
 ## LICENSE
 
 [BSD-3-Clause](LICENSE) Copyright 2022-2025 Digital Bazaar, Inc.
