@@ -223,7 +223,8 @@ describe('10.1 HTTP(S) Binding', function() {
       });
 
       // Normative: "NOT_FOUND → 404"
-      // Requires notFound DID to be set in the implementation config
+      // Requires one or more notFoundDids to be set in the implementation
+      // config, each as an object: {did, resolutionOptions}
       notFoundDids.forEach(({did, resolutionOptions}) => {
         const baseUrl = `${endpoint}/${did}`;
         const url = addQueryParametersToUrl(baseUrl, resolutionOptions);
@@ -266,7 +267,8 @@ describe('10.1 HTTP(S) Binding', function() {
       // Normative: "If the DID resolution or DID URL dereferencing function
       //   returns a deactivated metadata property with the value true …
       //   The HTTP response status code MUST be 410"
-      // Requires deactivated DID to be set in the implementation config
+      // Requires deactivatedDids: [{did, resolutionOptions}] in the
+      // implementation config
       deactivatedDids.forEach(({did, resolutionOptions}) => {
         const baseUrl = `${endpoint}/${did}`;
         const url = addQueryParametersToUrl(baseUrl, resolutionOptions);
