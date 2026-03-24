@@ -22,9 +22,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:6df988b9-ab1a-405e-9bce-9ac09644987e",
+              "_testId": "urn:uuid:1a98b2de-01c1-4d27-8d2a-7a9ce25ea950",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All HTTPS bindings MUST use TLS"
@@ -49,9 +49,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:b38d15f5-464b-4776-9b0c-cd972057ba0c",
+              "_testId": "urn:uuid:205fb5dc-3341-4335-b448-002bb80a750d",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All conforming DID resolvers MUST implement the GET version of the HTTPS binding"
@@ -63,12 +63,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 537,
+                "_idleStart": 620,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 347,
+              "duration": 627,
               "state": "passed",
               "speed": "slow"
             },
@@ -85,9 +85,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:77f36e12-b0e9-48a1-a30f-ea5e2c93c808",
+              "_testId": "urn:uuid:fe46fd6d-6ed9-4418-8554-cdd261659293",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If Accept is application/did-resolution, HTTP body MUST contain a DID resolution result"
@@ -99,14 +99,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 844,
+                "_idleStart": 1203,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 37,
+              "duration": 75,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -121,9 +121,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:75220f91-599a-4b25-90bf-50802689f669",
+              "_testId": "urn:uuid:321c1b34-b0db-4b14-8ac2-0b29e1ad50fa",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If function is successful and returns a didDocument, HTTP response status code MUST be 200"
@@ -135,14 +135,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 882,
+                "_idleStart": 1279,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 29,
+              "duration": 70,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -157,9 +157,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:8668812e-97ac-452c-af50-3d4595230f15",
+              "_testId": "urn:uuid:d156d66a-93e3-4c51-af79-c6aee0bb5b86",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "HTTP response MUST contain a Content-Type header whose value MUST equal contentType in didResolutionMetadata"
@@ -171,14 +171,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 912,
+                "_idleStart": 1350,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 30,
+              "duration": 71,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -193,9 +193,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:d976859c-f4df-4eb5-917f-4038b7d69031",
+              "_testId": "urn:uuid:8a2554ab-8e3d-4217-be12-da5b5d119a74",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "HTTP response body MUST contain the didDocument result of the DID resolution function"
@@ -207,14 +207,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 942,
+                "_idleStart": 1421,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 29,
+              "duration": 73,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -229,9 +229,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:030968d6-795f-46c9-8226-ac5382997cdc",
+              "_testId": "urn:uuid:ee1c2d27-61cd-489c-96da-43f451f19bba",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If Accept is set to a DID representation media type, response body MUST contain only the didDocument (not the full resolution result)"
@@ -243,14 +243,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 972,
+                "_idleStart": 1495,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 30,
+              "duration": 71,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -265,9 +265,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:114a1b7e-ac42-4379-98f1-472b6c172b37",
+              "_testId": "urn:uuid:011d51c3-15f5-4375-861e-cef0534115c2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "GET binding: resolver MUST accept URL-encoded DIDs (required because clients MUST URL-encode when resolution options other than accept are provided)"
@@ -279,14 +279,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1002,
+                "_idleStart": 1566,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 30,
+              "duration": 72,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -301,9 +301,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:94549c83-7bf6-4c1d-9b29-22c4a4ef1006",
+              "_testId": "urn:uuid:1f9def17-70f0-46e2-8149-72835d7cf9a2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"not-a-did\")"
@@ -315,14 +315,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1032,
+                "_idleStart": 1638,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 22,
+              "duration": 63,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -337,9 +337,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:6bc2f482-e681-40e8-afc1-57dac576efd0",
+              "_testId": "urn:uuid:ff95da3d-0770-4f71-8af8-2e1647330098",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"did:example\")"
@@ -351,14 +351,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1055,
+                "_idleStart": 1702,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 23,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -373,9 +373,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:8ad83f34-b875-44c4-bac6-9f0d5827fc78",
+              "_testId": "urn:uuid:4b5808f1-1b7d-4b08-9f8f-5f7ed697f69d",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "METHOD_NOT_SUPPORTED error MUST map to HTTP status 501"
@@ -387,14 +387,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1077,
+                "_idleStart": 1767,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 26,
+              "duration": 69,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -409,9 +409,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:3d693a71-cacc-4259-b452-e5ded667f98e",
+              "_testId": "urn:uuid:f80acf5b-896c-4395-a324-b1e2f0c4e656",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "NOT_FOUND error MUST map to HTTP status 404"
@@ -423,12 +423,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1104,
+                "_idleStart": 1836,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 22,
+              "duration": 65,
               "state": "failed",
               "err": {
                 "message": "expected 400 to equal 404",
@@ -454,9 +454,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:7e96e4e4-d13e-401e-81c9-eb535389413f",
+              "_testId": "urn:uuid:7d000a2a-2bc8-4f6c-8719-59a4cc113b32",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "REPRESENTATION_NOT_SUPPORTED error MUST map to HTTP status 406"
@@ -468,14 +468,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1129,
+                "_idleStart": 1905,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 29,
+              "duration": 70,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -490,9 +490,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:429a7da0-42b9-4b1f-86b8-b4cfc4684a94",
+              "_testId": "urn:uuid:3c55c9eb-8d3a-417c-9504-0ab2ca94c5d2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If deactivated metadata property is true, HTTP response status MUST be 410"
@@ -504,12 +504,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1158,
+                "_idleStart": 1975,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 22,
+              "duration": 65,
               "state": "failed",
               "err": {
                 "message": "expected 400 to equal 410",
@@ -539,7 +539,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
               "originalTitle": "\"before each\" hook: setupRow",
@@ -558,9 +558,9 @@
           "_onlyTests": [],
           "_onlySuites": [],
           "delayed": false,
-          "parent": "5VXPdO_qp99ERXS006B6J",
+          "parent": "sHfDP8xtjIWNtYBy6ch6A",
           "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-          "_testId": "urn:uuid:4620d617-b41f-4261-aaa8-e309d9f5e8c0"
+          "_testId": "urn:uuid:d4fff0e6-a4d4-45de-9526-277524a62886"
         },
         {
           "title": "Digital Bazaar, Inc.",
@@ -580,9 +580,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:1e21b9fc-3031-484b-b9f4-64f713cc83ab",
+              "_testId": "urn:uuid:bcd71e54-ce13-4a7a-830a-514eabe999bc",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "All HTTPS bindings MUST use TLS"
@@ -607,9 +607,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:df3b41e1-cb99-4bd2-b350-acd16088837d",
+              "_testId": "urn:uuid:3cf65d10-5120-4290-b9e5-78d8ddd66247",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "All conforming DID resolvers MUST implement the GET version of the HTTPS binding"
@@ -621,12 +621,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1182,
+                "_idleStart": 2042,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 275,
+              "duration": 295,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -652,9 +652,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:40946e3b-96f1-4781-a905-36e2ff833b73",
+              "_testId": "urn:uuid:2cd1914f-72a2-458a-8f86-448e1262babb",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If Accept is application/did-resolution, HTTP body MUST contain a DID resolution result"
@@ -666,12 +666,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1457,
+                "_idleStart": 2338,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 59,
+              "duration": 82,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -697,9 +697,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:cb1d30d5-2a28-411c-a4d4-8cdc6b907f9a",
+              "_testId": "urn:uuid:d076be78-0d6a-412c-adf0-5a288f089498",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If function is successful and returns a didDocument, HTTP response status code MUST be 200"
@@ -711,12 +711,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1517,
+                "_idleStart": 2420,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 62,
+              "duration": 93,
               "state": "failed",
               "err": {
                 "message": "expected 500 to equal 200",
@@ -742,9 +742,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:64b79764-6b1a-44cc-91d5-2740534b17e5",
+              "_testId": "urn:uuid:000b511f-aac6-4470-9f21-df079bc67507",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "HTTP response MUST contain a Content-Type header whose value MUST equal contentType in didResolutionMetadata"
@@ -756,12 +756,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1579,
+                "_idleStart": 2513,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 59,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -787,9 +787,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:4d0451cc-b2ef-4ac0-a757-ded5eeb719c8",
+              "_testId": "urn:uuid:e95e0554-8b08-4405-bb99-3904ff74df0c",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "HTTP response body MUST contain the didDocument result of the DID resolution function"
@@ -801,12 +801,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1639,
+                "_idleStart": 2594,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 58,
+              "duration": 78,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -832,9 +832,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:63eb7280-f27e-4ff0-abb6-54865760d540",
+              "_testId": "urn:uuid:a6294157-ea45-48dc-8780-f99ff996525a",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If Accept is set to a DID representation media type, response body MUST contain only the didDocument (not the full resolution result)"
@@ -846,12 +846,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1697,
+                "_idleStart": 2672,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 343,
+              "duration": 211,
               "state": "passed",
               "speed": "slow"
             },
@@ -868,9 +868,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:393f6f3b-1a5f-48e7-9e7b-9ac937142b2c",
+              "_testId": "urn:uuid:6fc1291c-1cb1-4d35-b137-31ac10a3ab62",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "GET binding: resolver MUST accept URL-encoded DIDs (required because clients MUST URL-encode when resolution options other than accept are provided)"
@@ -882,12 +882,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2040,
+                "_idleStart": 2884,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 58,
+              "duration": 81,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -913,9 +913,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:2e7ad224-86b5-4c19-9f70-5abb7d0bee6d",
+              "_testId": "urn:uuid:c3e10917-a2d9-4652-a953-0693cfa3e820",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"not-a-did\")"
@@ -927,12 +927,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2099,
+                "_idleStart": 2966,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 64,
+              "duration": 83,
               "state": "failed",
               "err": {
                 "message": "expected 500 to equal 400",
@@ -958,9 +958,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:9058ac09-0102-4c8e-8510-64aae77943e8",
+              "_testId": "urn:uuid:8b48e0c9-d8ed-4092-8879-906ddea000f0",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"did:example\")"
@@ -972,12 +972,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2164,
+                "_idleStart": 3050,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 58,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "message": "expected 500 to equal 400",
@@ -1003,9 +1003,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:12f5109f-9ac0-4655-a4a5-d29522ce5dc5",
+              "_testId": "urn:uuid:2830a1e8-7fa8-466a-9db5-27d2c43ab173",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "METHOD_NOT_SUPPORTED error MUST map to HTTP status 501"
@@ -1017,12 +1017,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2222,
+                "_idleStart": 3130,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 59,
+              "duration": 79,
               "state": "failed",
               "err": {
                 "actual": "500",
@@ -1048,9 +1048,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:f375f3ee-77bd-40c2-8c33-1168bc33e545",
+              "_testId": "urn:uuid:4593d0e7-c516-48d0-88a8-1d6b222f983f",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "NOT_FOUND error MUST map to HTTP status 404"
@@ -1062,12 +1062,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2282,
+                "_idleStart": 3209,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 54,
+              "duration": 76,
               "state": "failed",
               "err": {
                 "actual": {
@@ -1095,9 +1095,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:51fbc80d-8af0-4865-9cc4-81aaa0e7f789",
+              "_testId": "urn:uuid:e7c2c992-9564-4d24-8b16-1aec2a3c2c1a",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "REPRESENTATION_NOT_SUPPORTED error MUST map to HTTP status 406"
@@ -1109,12 +1109,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2336,
+                "_idleStart": 3286,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 59,
+              "duration": 81,
               "state": "failed",
               "err": {
                 "actual": "500",
@@ -1140,9 +1140,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:58958d1c-ab3a-4ea0-9f5a-b38a3d132b45",
+              "_testId": "urn:uuid:67ceda81-a5dc-4ce0-a8cb-d37c5bc0c2c0",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If deactivated metadata property is true, HTTP response status MUST be 410"
@@ -1154,12 +1154,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2395,
+                "_idleStart": 3367,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 49,
+              "duration": 74,
               "state": "failed",
               "err": {
                 "actual": "404",
@@ -1189,7 +1189,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
               "originalTitle": "\"before each\" hook: setupRow",
@@ -1208,9 +1208,9 @@
           "_onlyTests": [],
           "_onlySuites": [],
           "delayed": false,
-          "parent": "5VXPdO_qp99ERXS006B6J",
+          "parent": "sHfDP8xtjIWNtYBy6ch6A",
           "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-          "_testId": "urn:uuid:8685421f-23fd-4ada-aa57-ad3c1aca5b02"
+          "_testId": "urn:uuid:a037c411-98b2-4af7-ac70-5dc59b6798c0"
         }
       ],
       "root": false,
@@ -1226,13 +1226,13 @@
       "_onlyTests": [],
       "_onlySuites": [],
       "delayed": false,
-      "parent": "IpZ6ADH4xkFD5RsC5-fbf",
+      "parent": "0a0LUaijvmUdgvgBEqKo7",
       "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
       "matrix": true,
       "report": true,
       "rowLabel": "Test Name",
       "columnLabel": "Implementer",
-      "_testId": "urn:uuid:ebf48bf7-db7a-4a06-8ec8-94b6d190fb01",
+      "_testId": "urn:uuid:2d1595a0-f104-4c8f-aa8d-1343e776620a",
       "columns": [
         "DIF",
         "Digital Bazaar, Inc."
@@ -1255,9 +1255,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:6df988b9-ab1a-405e-9bce-9ac09644987e",
+              "_testId": "urn:uuid:1a98b2de-01c1-4d27-8d2a-7a9ce25ea950",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All HTTPS bindings MUST use TLS"
@@ -1282,9 +1282,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:1e21b9fc-3031-484b-b9f4-64f713cc83ab",
+              "_testId": "urn:uuid:bcd71e54-ce13-4a7a-830a-514eabe999bc",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "All HTTPS bindings MUST use TLS"
@@ -1315,9 +1315,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:b38d15f5-464b-4776-9b0c-cd972057ba0c",
+              "_testId": "urn:uuid:205fb5dc-3341-4335-b448-002bb80a750d",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All conforming DID resolvers MUST implement the GET version of the HTTPS binding"
@@ -1329,12 +1329,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 537,
+                "_idleStart": 620,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 347,
+              "duration": 627,
               "state": "passed",
               "speed": "slow"
             },
@@ -1351,9 +1351,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:df3b41e1-cb99-4bd2-b350-acd16088837d",
+              "_testId": "urn:uuid:3cf65d10-5120-4290-b9e5-78d8ddd66247",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "All conforming DID resolvers MUST implement the GET version of the HTTPS binding"
@@ -1365,12 +1365,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1182,
+                "_idleStart": 2042,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 275,
+              "duration": 295,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -1402,9 +1402,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:77f36e12-b0e9-48a1-a30f-ea5e2c93c808",
+              "_testId": "urn:uuid:fe46fd6d-6ed9-4418-8554-cdd261659293",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If Accept is application/did-resolution, HTTP body MUST contain a DID resolution result"
@@ -1416,14 +1416,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 844,
+                "_idleStart": 1203,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 37,
+              "duration": 75,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -1438,9 +1438,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:40946e3b-96f1-4781-a905-36e2ff833b73",
+              "_testId": "urn:uuid:2cd1914f-72a2-458a-8f86-448e1262babb",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If Accept is application/did-resolution, HTTP body MUST contain a DID resolution result"
@@ -1452,12 +1452,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1457,
+                "_idleStart": 2338,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 59,
+              "duration": 82,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -1489,9 +1489,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:75220f91-599a-4b25-90bf-50802689f669",
+              "_testId": "urn:uuid:321c1b34-b0db-4b14-8ac2-0b29e1ad50fa",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If function is successful and returns a didDocument, HTTP response status code MUST be 200"
@@ -1503,14 +1503,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 882,
+                "_idleStart": 1279,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 29,
+              "duration": 70,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -1525,9 +1525,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:cb1d30d5-2a28-411c-a4d4-8cdc6b907f9a",
+              "_testId": "urn:uuid:d076be78-0d6a-412c-adf0-5a288f089498",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If function is successful and returns a didDocument, HTTP response status code MUST be 200"
@@ -1539,12 +1539,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1517,
+                "_idleStart": 2420,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 62,
+              "duration": 93,
               "state": "failed",
               "err": {
                 "message": "expected 500 to equal 200",
@@ -1576,9 +1576,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:8668812e-97ac-452c-af50-3d4595230f15",
+              "_testId": "urn:uuid:d156d66a-93e3-4c51-af79-c6aee0bb5b86",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "HTTP response MUST contain a Content-Type header whose value MUST equal contentType in didResolutionMetadata"
@@ -1590,14 +1590,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 912,
+                "_idleStart": 1350,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 30,
+              "duration": 71,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -1612,9 +1612,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:64b79764-6b1a-44cc-91d5-2740534b17e5",
+              "_testId": "urn:uuid:000b511f-aac6-4470-9f21-df079bc67507",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "HTTP response MUST contain a Content-Type header whose value MUST equal contentType in didResolutionMetadata"
@@ -1626,12 +1626,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1579,
+                "_idleStart": 2513,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 59,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -1663,9 +1663,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:d976859c-f4df-4eb5-917f-4038b7d69031",
+              "_testId": "urn:uuid:8a2554ab-8e3d-4217-be12-da5b5d119a74",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "HTTP response body MUST contain the didDocument result of the DID resolution function"
@@ -1677,14 +1677,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 942,
+                "_idleStart": 1421,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 29,
+              "duration": 73,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -1699,9 +1699,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:4d0451cc-b2ef-4ac0-a757-ded5eeb719c8",
+              "_testId": "urn:uuid:e95e0554-8b08-4405-bb99-3904ff74df0c",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "HTTP response body MUST contain the didDocument result of the DID resolution function"
@@ -1713,12 +1713,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1639,
+                "_idleStart": 2594,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 58,
+              "duration": 78,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -1750,9 +1750,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:030968d6-795f-46c9-8226-ac5382997cdc",
+              "_testId": "urn:uuid:ee1c2d27-61cd-489c-96da-43f451f19bba",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If Accept is set to a DID representation media type, response body MUST contain only the didDocument (not the full resolution result)"
@@ -1764,14 +1764,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 972,
+                "_idleStart": 1495,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 30,
+              "duration": 71,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -1786,9 +1786,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:63eb7280-f27e-4ff0-abb6-54865760d540",
+              "_testId": "urn:uuid:a6294157-ea45-48dc-8780-f99ff996525a",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If Accept is set to a DID representation media type, response body MUST contain only the didDocument (not the full resolution result)"
@@ -1800,12 +1800,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1697,
+                "_idleStart": 2672,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 343,
+              "duration": 211,
               "state": "passed",
               "speed": "slow"
             }
@@ -1828,9 +1828,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:114a1b7e-ac42-4379-98f1-472b6c172b37",
+              "_testId": "urn:uuid:011d51c3-15f5-4375-861e-cef0534115c2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "GET binding: resolver MUST accept URL-encoded DIDs (required because clients MUST URL-encode when resolution options other than accept are provided)"
@@ -1842,14 +1842,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1002,
+                "_idleStart": 1566,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 30,
+              "duration": 72,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -1864,9 +1864,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:393f6f3b-1a5f-48e7-9e7b-9ac937142b2c",
+              "_testId": "urn:uuid:6fc1291c-1cb1-4d35-b137-31ac10a3ab62",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "GET binding: resolver MUST accept URL-encoded DIDs (required because clients MUST URL-encode when resolution options other than accept are provided)"
@@ -1878,12 +1878,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2040,
+                "_idleStart": 2884,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 58,
+              "duration": 81,
               "state": "failed",
               "err": {
                 "message": "expected false to be true",
@@ -1915,9 +1915,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:94549c83-7bf6-4c1d-9b29-22c4a4ef1006",
+              "_testId": "urn:uuid:1f9def17-70f0-46e2-8149-72835d7cf9a2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"not-a-did\")"
@@ -1929,14 +1929,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1032,
+                "_idleStart": 1638,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 22,
+              "duration": 63,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -1951,9 +1951,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:2e7ad224-86b5-4c19-9f70-5abb7d0bee6d",
+              "_testId": "urn:uuid:c3e10917-a2d9-4652-a953-0693cfa3e820",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"not-a-did\")"
@@ -1965,12 +1965,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2099,
+                "_idleStart": 2966,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 64,
+              "duration": 83,
               "state": "failed",
               "err": {
                 "message": "expected 500 to equal 400",
@@ -2002,9 +2002,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:6bc2f482-e681-40e8-afc1-57dac576efd0",
+              "_testId": "urn:uuid:ff95da3d-0770-4f71-8af8-2e1647330098",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"did:example\")"
@@ -2016,14 +2016,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1055,
+                "_idleStart": 1702,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 23,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2038,9 +2038,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:9058ac09-0102-4c8e-8510-64aae77943e8",
+              "_testId": "urn:uuid:8b48e0c9-d8ed-4092-8879-906ddea000f0",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "INVALID_DID error MUST map to HTTP status 400 (input: \"did:example\")"
@@ -2052,12 +2052,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2164,
+                "_idleStart": 3050,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 58,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "message": "expected 500 to equal 400",
@@ -2089,9 +2089,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:8ad83f34-b875-44c4-bac6-9f0d5827fc78",
+              "_testId": "urn:uuid:4b5808f1-1b7d-4b08-9f8f-5f7ed697f69d",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "METHOD_NOT_SUPPORTED error MUST map to HTTP status 501"
@@ -2103,14 +2103,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1077,
+                "_idleStart": 1767,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 26,
+              "duration": 69,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2125,9 +2125,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:12f5109f-9ac0-4655-a4a5-d29522ce5dc5",
+              "_testId": "urn:uuid:2830a1e8-7fa8-466a-9db5-27d2c43ab173",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "METHOD_NOT_SUPPORTED error MUST map to HTTP status 501"
@@ -2139,12 +2139,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2222,
+                "_idleStart": 3130,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 59,
+              "duration": 79,
               "state": "failed",
               "err": {
                 "actual": "500",
@@ -2176,9 +2176,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:3d693a71-cacc-4259-b452-e5ded667f98e",
+              "_testId": "urn:uuid:f80acf5b-896c-4395-a324-b1e2f0c4e656",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "NOT_FOUND error MUST map to HTTP status 404"
@@ -2190,12 +2190,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1104,
+                "_idleStart": 1836,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 22,
+              "duration": 65,
               "state": "failed",
               "err": {
                 "message": "expected 400 to equal 404",
@@ -2221,9 +2221,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:f375f3ee-77bd-40c2-8c33-1168bc33e545",
+              "_testId": "urn:uuid:4593d0e7-c516-48d0-88a8-1d6b222f983f",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "NOT_FOUND error MUST map to HTTP status 404"
@@ -2235,12 +2235,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2282,
+                "_idleStart": 3209,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 54,
+              "duration": 76,
               "state": "failed",
               "err": {
                 "actual": {
@@ -2274,9 +2274,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:7e96e4e4-d13e-401e-81c9-eb535389413f",
+              "_testId": "urn:uuid:7d000a2a-2bc8-4f6c-8719-59a4cc113b32",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "REPRESENTATION_NOT_SUPPORTED error MUST map to HTTP status 406"
@@ -2288,14 +2288,14 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1129,
+                "_idleStart": 1905,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 29,
+              "duration": 70,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2310,9 +2310,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:51fbc80d-8af0-4865-9cc4-81aaa0e7f789",
+              "_testId": "urn:uuid:e7c2c992-9564-4d24-8b16-1aec2a3c2c1a",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "REPRESENTATION_NOT_SUPPORTED error MUST map to HTTP status 406"
@@ -2324,12 +2324,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2336,
+                "_idleStart": 3286,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 59,
+              "duration": 81,
               "state": "failed",
               "err": {
                 "actual": "500",
@@ -2361,9 +2361,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "mqSHCtg1uR2_oO6w1R_A8",
+              "parent": "lbvc3doOJLNEcVRwLJHzY",
               "ctx": null,
-              "_testId": "urn:uuid:429a7da0-42b9-4b1f-86b8-b4cfc4684a94",
+              "_testId": "urn:uuid:3c55c9eb-8d3a-417c-9504-0ab2ca94c5d2",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If deactivated metadata property is true, HTTP response status MUST be 410"
@@ -2375,12 +2375,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 1158,
+                "_idleStart": 1975,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 22,
+              "duration": 65,
               "state": "failed",
               "err": {
                 "message": "expected 400 to equal 410",
@@ -2406,9 +2406,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/10-bindings.js",
-              "parent": "J2m9Jd1LxvTmhXU49jUHE",
+              "parent": "7ad1c84-_1rISG37ryxn2",
               "ctx": null,
-              "_testId": "urn:uuid:58958d1c-ab3a-4ea0-9f5a-b38a3d132b45",
+              "_testId": "urn:uuid:67ceda81-a5dc-4ce0-a8cb-d37c5bc0c2c0",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If deactivated metadata property is true, HTTP response status MUST be 410"
@@ -2420,12 +2420,12 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2395,
+                "_idleStart": 3367,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
-              "duration": 49,
+              "duration": 74,
               "state": "failed",
               "err": {
                 "actual": "404",
@@ -2464,9 +2464,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:00e3c721-ae92-4f40-adc9-bc2ab0cdb428",
+              "_testId": "urn:uuid:8ed94a97-76fd-4d7f-9a5c-70a986d48833",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Implementation has at least one valid DID to test"
@@ -2490,9 +2490,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:c6ab7cc4-3d18-42c0-af6a-755ce4582596",
+              "_testId": "urn:uuid:99c73641-b1a3-4cd0-9cca-6f952a06e976",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All conformant DID resolvers MUST implement the DID resolution function for at least one DID method"
@@ -2503,15 +2503,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2445,
+                "_idleStart": 3443,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=All%20conforming%20DID%20resolvers%20MUST%20implement%20the%20DID%20resolution%20function%20for%20at%20least%20one%20DID%20method",
-              "duration": 30,
+              "duration": 71,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2526,9 +2526,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:f6428a72-de61-4199-bfe0-1d8d4ebd42d0",
+              "_testId": "urn:uuid:d19d1069-5b36-4cf7-b2e7-0fcf3a2851ca",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The resolutionOptions input is REQUIRED, but the structure MAY be empty."
@@ -2540,7 +2540,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2476,
+                "_idleStart": 3513,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -2562,9 +2562,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:000942b0-fdb2-46b7-b6c7-f06cb55d358a",
+              "_testId": "urn:uuid:5b10b8e1-10cd-426b-98bc-697661c45a3f",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The didResolutionMetadata structure is REQUIRED."
@@ -2575,15 +2575,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2476,
+                "_idleStart": 3514,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=A%20metadata%20structure%20consisting%20of%20values%20relating%20to%20the%20results%20of%20the%20DID%20resolution%20process.%20This%20structure%20is%20REQUIRED",
-              "duration": 28,
+              "duration": 70,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2598,9 +2598,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:8da3e1d7-5e47-4326-8e85-a48040650858",
+              "_testId": "urn:uuid:ec883c04-6419-483f-8099-87d0dd09ad4e",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If resolution is successful, the didDocument MUST be a conformant DID document"
@@ -2611,15 +2611,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2505,
+                "_idleStart": 3585,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20DID%20document%20that%20is%20capable%20of%20being%20represented%20in%20one%20of%20the%20conformant%20representations%20of%20the%20Decentralized%20Identifiers%20(DIDs)%20v1.0%20specification",
-              "duration": 28,
+              "duration": 71,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2634,9 +2634,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:750699bf-eb20-46f9-8be2-c8cf8127b1a5",
+              "_testId": "urn:uuid:c8b9c818-6b67-4e00-89c6-a5f3f7439f20",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The value of id in the resolved DID document MUST match the DID that was resolved"
@@ -2647,15 +2647,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2534,
+                "_idleStart": 3656,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20value%20of%20id%20in%20the%20resolved%20DID%20document%20MUST%20be%20string%20equal%20to%20the%20DID%20that%20was%20resolved.",
-              "duration": 28,
+              "duration": 72,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2670,9 +2670,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:94ccd165-2a72-4f17-ab86-806ed80da666",
+              "_testId": "urn:uuid:4c4af2d0-62c8-4faa-9e74-f74bfd107c9e",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is successful, the `didDocumentMetadata` MUST be a metadata structure"
@@ -2683,15 +2683,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2562,
+                "_idleStart": 3728,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20metadata%20structure",
-              "duration": 29,
+              "duration": 70,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2706,9 +2706,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:8ba8714b-dae9-4cca-8572-20150c5db824",
+              "_testId": "urn:uuid:ee94ed0e-af46-4eb1-9573-4f9ced6628a6",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input to the resolve function is REQUIRED"
@@ -2719,15 +2719,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2592,
+                "_idleStart": 3798,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 21,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2742,9 +2742,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:7c0b16ad-5e5f-4e78-b39a-74cb3a88b804",
+              "_testId": "urn:uuid:c93696ff-50cf-4ac7-bbb6-755c9e44cf25",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0."
@@ -2755,15 +2755,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2613,
+                "_idleStart": 3863,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 23,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2778,9 +2778,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:659ef0b5-8837-4f79-bb61-2a461103ccde",
+              "_testId": "urn:uuid:9b1ce53e-e9f9-47e0-9a87-15ed02fa55b9",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Produces a INVALID_DID error and conformant resolution result"
@@ -2791,13 +2791,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2636,
+                "_idleStart": 3926,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Validate%20that%20the%20input%20DID%20conforms%20to%20the%20did%20rule%20of%20the%20DID%20Syntax.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 23,
+              "duration": 64,
               "state": "failed",
               "err": {
                 "actual": "INVALID_DID",
@@ -2823,9 +2823,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:c3781754-dea8-4ccf-bc40-637da1696fcc",
+              "_testId": "urn:uuid:4cfeb271-31a0-4c54-8460-71522d88eb6b",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process."
@@ -2836,15 +2836,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2659,
+                "_idleStart": 3991,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.",
-              "duration": 23,
+              "duration": 65,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2859,9 +2859,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:2f7c83d8-47ff-4578-989d-c7dc4e459e34",
+              "_testId": "urn:uuid:df63c9f8-d050-44d1-8c99-0ff25991cb6c",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure"
@@ -2872,15 +2872,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2682,
+                "_idleStart": 4057,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.",
-              "duration": 23,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2895,9 +2895,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:22f84d97-90c1-456a-a641-6ef77d45f70a",
+              "_testId": "urn:uuid:d1879486-84c1-4167-9249-3496caada5d5",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0."
@@ -2908,15 +2908,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2705,
+                "_idleStart": 4121,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 22,
+              "duration": 65,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -2931,9 +2931,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:a8e71a4e-dd12-4d7e-970e-101f41174814",
+              "_testId": "urn:uuid:78279018-46ee-4609-8879-3c919f8c68a5",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Produces a INVALID_DID error and conformant resolution result"
@@ -2944,13 +2944,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2727,
+                "_idleStart": 4186,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Validate%20that%20the%20input%20DID%20conforms%20to%20the%20did%20rule%20of%20the%20DID%20Syntax.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 23,
+              "duration": 64,
               "state": "failed",
               "err": {
                 "actual": "INVALID_DID",
@@ -2976,9 +2976,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:54cf7a19-cc63-41b3-a49e-da7c3224dafb",
+              "_testId": "urn:uuid:014cf094-087d-4c14-89c3-364f29cef8e6",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process."
@@ -2989,15 +2989,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2751,
+                "_idleStart": 4251,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.",
-              "duration": 22,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -3012,9 +3012,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:1ea3d2d0-5bad-4327-b662-b2ff0be9799f",
+              "_testId": "urn:uuid:ada5ad97-f8d3-4f05-815b-ad854fd0a910",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure"
@@ -3025,15 +3025,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2774,
+                "_idleStart": 4315,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.",
-              "duration": 21,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -3048,9 +3048,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:2cdc4c46-cc93-4089-a44f-daabca5f1fcb",
+              "_testId": "urn:uuid:1ecac023-2e46-4a15-b811-4535cd272901",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the DID method is not supported, produces a METHOD_NOT_SUPPORTED error and conformant resolution result"
@@ -3061,13 +3061,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2796,
+                "_idleStart": 4379,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Determine%20whether%20the%20DID%20method%20of%20the%20input%20DID%20is%20supported%20by%20the%20DID%20resolver%20that%20implements%20this%20algorithm.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 26,
+              "duration": 70,
               "state": "failed",
               "err": {
                 "actual": "METHOD_NOT_SUPPORTED",
@@ -3097,7 +3097,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
               "originalTitle": "\"before each\" hook: setupRow",
@@ -3116,9 +3116,9 @@
           "_onlyTests": [],
           "_onlySuites": [],
           "delayed": false,
-          "parent": "rwIcqXOVfMg7zwUGHDEgo",
+          "parent": "jaEtAUjmfKoZ1eIiHkz13",
           "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-          "_testId": "urn:uuid:a30f50c9-3497-4bda-a279-d4817275377d"
+          "_testId": "urn:uuid:d6015aff-7822-4762-ade3-41c3977d6b16"
         },
         {
           "title": "Digital Bazaar, Inc.",
@@ -3138,9 +3138,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:27a4f322-2989-47ab-9a05-bd11d84ea5ce",
+              "_testId": "urn:uuid:9fdd6420-9f1b-4715-84a9-bf363e1165d6",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "Implementation has at least one valid DID to test"
@@ -3164,9 +3164,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:d97317a9-61b6-4958-9f9f-9d02339fa7e9",
+              "_testId": "urn:uuid:654b87e0-273d-4547-be11-e25853503774",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "All conformant DID resolvers MUST implement the DID resolution function for at least one DID method"
@@ -3177,13 +3177,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2823,
+                "_idleStart": 4450,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=All%20conforming%20DID%20resolvers%20MUST%20implement%20the%20DID%20resolution%20function%20for%20at%20least%20one%20DID%20method",
-              "duration": 65,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -3209,9 +3209,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:764e6836-ec33-4c13-b7b5-3abca1078974",
+              "_testId": "urn:uuid:3a373023-08de-4471-8037-b331ded956cd",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The resolutionOptions input is REQUIRED, but the structure MAY be empty."
@@ -3223,7 +3223,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2889,
+                "_idleStart": 4530,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -3245,9 +3245,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:a81de34e-12b4-4d20-ae30-40edf1e90fa1",
+              "_testId": "urn:uuid:0d1be5a7-0e34-48dc-a836-02080119dacb",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The didResolutionMetadata structure is REQUIRED."
@@ -3258,13 +3258,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2889,
+                "_idleStart": 4530,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=A%20metadata%20structure%20consisting%20of%20values%20relating%20to%20the%20results%20of%20the%20DID%20resolution%20process.%20This%20structure%20is%20REQUIRED",
-              "duration": 53,
+              "duration": 81,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -3290,9 +3290,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:45e5b894-e8b2-4d6f-9472-cf23337010c7",
+              "_testId": "urn:uuid:1d002231-dcc6-4a99-abf6-de5721e58964",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If resolution is successful, the didDocument MUST be a conformant DID document"
@@ -3303,13 +3303,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2942,
+                "_idleStart": 4612,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20DID%20document%20that%20is%20capable%20of%20being%20represented%20in%20one%20of%20the%20conformant%20representations%20of%20the%20Decentralized%20Identifiers%20(DIDs)%20v1.0%20specification",
-              "duration": 51,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -3335,9 +3335,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:987154ce-abf6-4622-a0c6-d732b3ae03b3",
+              "_testId": "urn:uuid:f9e7e96f-e05d-4302-8cda-18ce7df97381",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The value of id in the resolved DID document MUST match the DID that was resolved"
@@ -3348,13 +3348,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2993,
+                "_idleStart": 4691,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20value%20of%20id%20in%20the%20resolved%20DID%20document%20MUST%20be%20string%20equal%20to%20the%20DID%20that%20was%20resolved.",
-              "duration": 62,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -3380,9 +3380,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:bb4080ef-3362-4b0a-9390-c0c9aa1f310b",
+              "_testId": "urn:uuid:acaaff06-b841-41b0-a1c7-ba277e08e843",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If the resolution is successful, the `didDocumentMetadata` MUST be a metadata structure"
@@ -3393,13 +3393,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3056,
+                "_idleStart": 4772,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20metadata%20structure",
-              "duration": 53,
+              "duration": 78,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -3425,9 +3425,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:375710f3-05d8-4644-ba21-94a25c420fc5",
+              "_testId": "urn:uuid:14d4c13f-eeeb-448a-8ce3-ec807290a5a5",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The did input to the resolve function is REQUIRED"
@@ -3438,15 +3438,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3109,
+                "_idleStart": 4851,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 59,
+              "duration": 76,
               "state": "passed",
-              "speed": "medium"
+              "speed": "slow"
             },
             {
               "type": "test",
@@ -3461,9 +3461,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:9a4a1ad5-fc7e-49d4-a575-b5553872c55f",
+              "_testId": "urn:uuid:6a0b3b12-71a5-4793-9c36-221ad4a1ce23",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0."
@@ -3474,15 +3474,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3168,
+                "_idleStart": 4927,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 56,
+              "duration": 78,
               "state": "passed",
-              "speed": "medium"
+              "speed": "slow"
             },
             {
               "type": "test",
@@ -3497,9 +3497,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:0d87a1c8-9106-410e-9783-d41379f12623",
+              "_testId": "urn:uuid:e92a8861-82c5-401a-8629-91ad030bc6bd",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "Produces a INVALID_DID error and conformant resolution result"
@@ -3510,13 +3510,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3224,
+                "_idleStart": 5004,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Validate%20that%20the%20input%20DID%20conforms%20to%20the%20did%20rule%20of%20the%20DID%20Syntax.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 50,
+              "duration": 77,
               "state": "failed",
               "err": {}
             },
@@ -3533,9 +3533,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:012f576a-2bbf-47b1-ad58-e3a1e2d1c168",
+              "_testId": "urn:uuid:7b74d38f-f175-4f9b-af08-739193a2ba0b",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process."
@@ -3546,13 +3546,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3275,
+                "_idleStart": 5083,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.",
-              "duration": 53,
+              "duration": 83,
               "state": "failed",
               "err": {}
             },
@@ -3569,9 +3569,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:0d2f6682-d89b-4722-a76a-5f46887fdd95",
+              "_testId": "urn:uuid:7b598831-f83f-47d8-bc37-6e3ec118ffb2",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure"
@@ -3582,13 +3582,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3329,
+                "_idleStart": 5166,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.",
-              "duration": 53,
+              "duration": 85,
               "state": "failed",
               "err": {}
             },
@@ -3605,9 +3605,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:47380a86-4300-4e28-8dfa-34a76fa1435d",
+              "_testId": "urn:uuid:dbbaa874-a606-4338-96d9-f1265f867ee4",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0."
@@ -3618,15 +3618,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3383,
+                "_idleStart": 5252,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 62,
+              "duration": 84,
               "state": "passed",
-              "speed": "medium"
+              "speed": "slow"
             },
             {
               "type": "test",
@@ -3641,9 +3641,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:2aea0ecb-bf3a-48e0-a3f1-eb9ff395cfb3",
+              "_testId": "urn:uuid:de3489e4-ebfd-47a9-b873-a2394f7e3a23",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "Produces a INVALID_DID error and conformant resolution result"
@@ -3654,13 +3654,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3445,
+                "_idleStart": 5335,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Validate%20that%20the%20input%20DID%20conforms%20to%20the%20did%20rule%20of%20the%20DID%20Syntax.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 55,
+              "duration": 77,
               "state": "failed",
               "err": {}
             },
@@ -3677,9 +3677,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:dfb4c960-77ce-4b7a-b1de-ff7f9a876999",
+              "_testId": "urn:uuid:cf819aeb-b9ed-4b8b-8857-14b5f76fa873",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process."
@@ -3690,13 +3690,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3501,
+                "_idleStart": 5413,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.",
-              "duration": 57,
+              "duration": 79,
               "state": "failed",
               "err": {}
             },
@@ -3713,9 +3713,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:cc400919-0c97-42fe-af24-9e3506cd3b75",
+              "_testId": "urn:uuid:9e552c6a-2858-4d10-8aab-bdd7fa0fcc01",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure"
@@ -3726,13 +3726,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3558,
+                "_idleStart": 5493,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.",
-              "duration": 59,
+              "duration": 79,
               "state": "failed",
               "err": {}
             },
@@ -3749,9 +3749,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:a153eba9-1676-4007-ab96-d9f6ecbc8efc",
+              "_testId": "urn:uuid:f773222e-a8e6-4b8e-8957-dabb0ae63eab",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If the DID method is not supported, produces a METHOD_NOT_SUPPORTED error and conformant resolution result"
@@ -3762,13 +3762,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3618,
+                "_idleStart": 5572,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Determine%20whether%20the%20DID%20method%20of%20the%20input%20DID%20is%20supported%20by%20the%20DID%20resolver%20that%20implements%20this%20algorithm.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 59,
+              "duration": 78,
               "state": "failed",
               "err": {}
             }
@@ -3789,7 +3789,7 @@
               "_currentRetry": 0,
               "pending": false,
               "type": "hook",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
               "originalTitle": "\"before each\" hook: setupRow",
@@ -3808,9 +3808,9 @@
           "_onlyTests": [],
           "_onlySuites": [],
           "delayed": false,
-          "parent": "rwIcqXOVfMg7zwUGHDEgo",
+          "parent": "jaEtAUjmfKoZ1eIiHkz13",
           "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-          "_testId": "urn:uuid:537ec2e9-b753-43d7-9030-9ce0e385f197"
+          "_testId": "urn:uuid:2d9095a3-ef8b-46ce-a968-3bb246e88d2f"
         }
       ],
       "root": false,
@@ -3826,13 +3826,13 @@
       "_onlyTests": [],
       "_onlySuites": [],
       "delayed": false,
-      "parent": "IpZ6ADH4xkFD5RsC5-fbf",
+      "parent": "0a0LUaijvmUdgvgBEqKo7",
       "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
       "matrix": true,
       "report": true,
       "rowLabel": "Test Name",
       "columnLabel": "Implementer",
-      "_testId": "urn:uuid:359cfde3-1b7e-47b5-8f37-fc67bc7d9ba8",
+      "_testId": "urn:uuid:d3776224-5401-459d-90f1-0844ae212003",
       "columns": [
         "DIF",
         "Digital Bazaar, Inc."
@@ -3854,9 +3854,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:00e3c721-ae92-4f40-adc9-bc2ab0cdb428",
+              "_testId": "urn:uuid:8ed94a97-76fd-4d7f-9a5c-70a986d48833",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Implementation has at least one valid DID to test"
@@ -3880,9 +3880,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:27a4f322-2989-47ab-9a05-bd11d84ea5ce",
+              "_testId": "urn:uuid:9fdd6420-9f1b-4715-84a9-bf363e1165d6",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "Implementation has at least one valid DID to test"
@@ -3912,9 +3912,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:c6ab7cc4-3d18-42c0-af6a-755ce4582596",
+              "_testId": "urn:uuid:99c73641-b1a3-4cd0-9cca-6f952a06e976",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "All conformant DID resolvers MUST implement the DID resolution function for at least one DID method"
@@ -3925,15 +3925,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2445,
+                "_idleStart": 3443,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=All%20conforming%20DID%20resolvers%20MUST%20implement%20the%20DID%20resolution%20function%20for%20at%20least%20one%20DID%20method",
-              "duration": 30,
+              "duration": 71,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -3948,9 +3948,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:d97317a9-61b6-4958-9f9f-9d02339fa7e9",
+              "_testId": "urn:uuid:654b87e0-273d-4547-be11-e25853503774",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "All conformant DID resolvers MUST implement the DID resolution function for at least one DID method"
@@ -3961,13 +3961,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2823,
+                "_idleStart": 4450,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=All%20conforming%20DID%20resolvers%20MUST%20implement%20the%20DID%20resolution%20function%20for%20at%20least%20one%20DID%20method",
-              "duration": 65,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -3999,9 +3999,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:f6428a72-de61-4199-bfe0-1d8d4ebd42d0",
+              "_testId": "urn:uuid:d19d1069-5b36-4cf7-b2e7-0fcf3a2851ca",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The resolutionOptions input is REQUIRED, but the structure MAY be empty."
@@ -4013,7 +4013,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2476,
+                "_idleStart": 3513,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -4035,9 +4035,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:764e6836-ec33-4c13-b7b5-3abca1078974",
+              "_testId": "urn:uuid:3a373023-08de-4471-8037-b331ded956cd",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The resolutionOptions input is REQUIRED, but the structure MAY be empty."
@@ -4049,7 +4049,7 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2889,
+                "_idleStart": 4530,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
@@ -4077,9 +4077,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:000942b0-fdb2-46b7-b6c7-f06cb55d358a",
+              "_testId": "urn:uuid:5b10b8e1-10cd-426b-98bc-697661c45a3f",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The didResolutionMetadata structure is REQUIRED."
@@ -4090,15 +4090,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2476,
+                "_idleStart": 3514,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=A%20metadata%20structure%20consisting%20of%20values%20relating%20to%20the%20results%20of%20the%20DID%20resolution%20process.%20This%20structure%20is%20REQUIRED",
-              "duration": 28,
+              "duration": 70,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -4113,9 +4113,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:a81de34e-12b4-4d20-ae30-40edf1e90fa1",
+              "_testId": "urn:uuid:0d1be5a7-0e34-48dc-a836-02080119dacb",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The didResolutionMetadata structure is REQUIRED."
@@ -4126,13 +4126,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2889,
+                "_idleStart": 4530,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=A%20metadata%20structure%20consisting%20of%20values%20relating%20to%20the%20results%20of%20the%20DID%20resolution%20process.%20This%20structure%20is%20REQUIRED",
-              "duration": 53,
+              "duration": 81,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -4164,9 +4164,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:8da3e1d7-5e47-4326-8e85-a48040650858",
+              "_testId": "urn:uuid:ec883c04-6419-483f-8099-87d0dd09ad4e",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If resolution is successful, the didDocument MUST be a conformant DID document"
@@ -4177,15 +4177,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2505,
+                "_idleStart": 3585,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20DID%20document%20that%20is%20capable%20of%20being%20represented%20in%20one%20of%20the%20conformant%20representations%20of%20the%20Decentralized%20Identifiers%20(DIDs)%20v1.0%20specification",
-              "duration": 28,
+              "duration": 71,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -4200,9 +4200,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:45e5b894-e8b2-4d6f-9472-cf23337010c7",
+              "_testId": "urn:uuid:1d002231-dcc6-4a99-abf6-de5721e58964",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If resolution is successful, the didDocument MUST be a conformant DID document"
@@ -4213,13 +4213,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2942,
+                "_idleStart": 4612,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20DID%20document%20that%20is%20capable%20of%20being%20represented%20in%20one%20of%20the%20conformant%20representations%20of%20the%20Decentralized%20Identifiers%20(DIDs)%20v1.0%20specification",
-              "duration": 51,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -4251,9 +4251,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:750699bf-eb20-46f9-8be2-c8cf8127b1a5",
+              "_testId": "urn:uuid:c8b9c818-6b67-4e00-89c6-a5f3f7439f20",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The value of id in the resolved DID document MUST match the DID that was resolved"
@@ -4264,15 +4264,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2534,
+                "_idleStart": 3656,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20value%20of%20id%20in%20the%20resolved%20DID%20document%20MUST%20be%20string%20equal%20to%20the%20DID%20that%20was%20resolved.",
-              "duration": 28,
+              "duration": 72,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -4287,9 +4287,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:987154ce-abf6-4622-a0c6-d732b3ae03b3",
+              "_testId": "urn:uuid:f9e7e96f-e05d-4302-8cda-18ce7df97381",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The value of id in the resolved DID document MUST match the DID that was resolved"
@@ -4300,13 +4300,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2993,
+                "_idleStart": 4691,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20value%20of%20id%20in%20the%20resolved%20DID%20document%20MUST%20be%20string%20equal%20to%20the%20DID%20that%20was%20resolved.",
-              "duration": 62,
+              "duration": 80,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -4338,9 +4338,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:94ccd165-2a72-4f17-ab86-806ed80da666",
+              "_testId": "urn:uuid:4c4af2d0-62c8-4faa-9e74-f74bfd107c9e",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is successful, the `didDocumentMetadata` MUST be a metadata structure"
@@ -4351,15 +4351,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2562,
+                "_idleStart": 3728,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20metadata%20structure",
-              "duration": 29,
+              "duration": 70,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -4374,9 +4374,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:bb4080ef-3362-4b0a-9390-c0c9aa1f310b",
+              "_testId": "urn:uuid:acaaff06-b841-41b0-a1c7-ba277e08e843",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If the resolution is successful, the `didDocumentMetadata` MUST be a metadata structure"
@@ -4387,13 +4387,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3056,
+                "_idleStart": 4772,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20successful%2C%20this%20MUST%20be%20a%20metadata%20structure",
-              "duration": 53,
+              "duration": 78,
               "state": "failed",
               "err": {
                 "actual": "false",
@@ -4425,9 +4425,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:8ba8714b-dae9-4cca-8572-20150c5db824",
+              "_testId": "urn:uuid:ee94ed0e-af46-4eb1-9573-4f9ced6628a6",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input to the resolve function is REQUIRED"
@@ -4438,15 +4438,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2592,
+                "_idleStart": 3798,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 21,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -4461,9 +4461,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:375710f3-05d8-4644-ba21-94a25c420fc5",
+              "_testId": "urn:uuid:14d4c13f-eeeb-448a-8ce3-ec807290a5a5",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The did input to the resolve function is REQUIRED"
@@ -4474,15 +4474,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3109,
+                "_idleStart": 4851,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=This%20input%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 59,
+              "duration": 76,
               "state": "passed",
-              "speed": "medium"
+              "speed": "slow"
             }
           ]
         },
@@ -4503,9 +4503,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:22f84d97-90c1-456a-a641-6ef77d45f70a",
+              "_testId": "urn:uuid:d1879486-84c1-4167-9249-3496caada5d5",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0."
@@ -4516,15 +4516,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2705,
+                "_idleStart": 4121,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 22,
+              "duration": 65,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -4539,9 +4539,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:47380a86-4300-4e28-8dfa-34a76fa1435d",
+              "_testId": "urn:uuid:dbbaa874-a606-4338-96d9-f1265f867ee4",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The did input value MUST be a conformant DID as defined in Decentralized Identifiers (DIDs) v1.0."
@@ -4552,15 +4552,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3383,
+                "_idleStart": 5252,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=The%20input%20parameter%20did%20is%20REQUIRED%20and%20the%20value%20MUST%20be%20a%20conformant%20DID%20as%20defined%20in%20Decentralized%20Identifiers%20(DIDs)%20v1.0.",
-              "duration": 62,
+              "duration": 84,
               "state": "passed",
-              "speed": "medium"
+              "speed": "slow"
             }
           ]
         },
@@ -4581,9 +4581,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:a8e71a4e-dd12-4d7e-970e-101f41174814",
+              "_testId": "urn:uuid:78279018-46ee-4609-8879-3c919f8c68a5",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "Produces a INVALID_DID error and conformant resolution result"
@@ -4594,13 +4594,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2727,
+                "_idleStart": 4186,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Validate%20that%20the%20input%20DID%20conforms%20to%20the%20did%20rule%20of%20the%20DID%20Syntax.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 23,
+              "duration": 64,
               "state": "failed",
               "err": {
                 "actual": "INVALID_DID",
@@ -4626,9 +4626,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:2aea0ecb-bf3a-48e0-a3f1-eb9ff395cfb3",
+              "_testId": "urn:uuid:de3489e4-ebfd-47a9-b873-a2394f7e3a23",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "Produces a INVALID_DID error and conformant resolution result"
@@ -4639,13 +4639,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3445,
+                "_idleStart": 5335,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Validate%20that%20the%20input%20DID%20conforms%20to%20the%20did%20rule%20of%20the%20DID%20Syntax.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 55,
+              "duration": 77,
               "state": "failed",
               "err": {}
             }
@@ -4668,9 +4668,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:54cf7a19-cc63-41b3-a49e-da7c3224dafb",
+              "_testId": "urn:uuid:014cf094-087d-4c14-89c3-364f29cef8e6",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process."
@@ -4681,15 +4681,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2751,
+                "_idleStart": 4251,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.",
-              "duration": 22,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -4704,9 +4704,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:dfb4c960-77ce-4b7a-b1de-ff7f9a876999",
+              "_testId": "urn:uuid:cf819aeb-b9ed-4b8b-8857-14b5f76fa873",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "The error property in DID Document Metadata is REQUIRED when there is an error in the resolution process."
@@ -4717,13 +4717,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3501,
+                "_idleStart": 5413,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20structure%20MUST%20contain%20an%20error%20property%20describing%20the%20error.",
-              "duration": 57,
+              "duration": 79,
               "state": "failed",
               "err": {}
             }
@@ -4746,9 +4746,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:1ea3d2d0-5bad-4327-b662-b2ff0be9799f",
+              "_testId": "urn:uuid:ada5ad97-f8d3-4f05-815b-ad854fd0a910",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure"
@@ -4759,15 +4759,15 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2774,
+                "_idleStart": 4315,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.",
-              "duration": 21,
+              "duration": 64,
               "state": "passed",
-              "speed": "fast"
+              "speed": "medium"
             },
             {
               "type": "test",
@@ -4782,9 +4782,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:cc400919-0c97-42fe-af24-9e3506cd3b75",
+              "_testId": "urn:uuid:9e552c6a-2858-4d10-8aab-bdd7fa0fcc01",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If the resolution is unsuccessful, the `didDocumentMetadata` output MUST be an empty metadata structure"
@@ -4795,13 +4795,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3558,
+                "_idleStart": 5493,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#did-resolution-options:~:text=If%20the%20resolution%20is%20unsuccessful%2C%20this%20output%20MUST%20be%20an%20empty%20metadata%20structure.",
-              "duration": 59,
+              "duration": 79,
               "state": "failed",
               "err": {}
             }
@@ -4824,9 +4824,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "LvK3tuFuwMng9rtjyy670",
+              "parent": "g6u8n0R6f1V3_RIRy37dF",
               "ctx": null,
-              "_testId": "urn:uuid:2cdc4c46-cc93-4089-a44f-daabca5f1fcb",
+              "_testId": "urn:uuid:1ecac023-2e46-4a15-b811-4535cd272901",
               "cell": {
                 "columnId": "DIF",
                 "rowId": "If the DID method is not supported, produces a METHOD_NOT_SUPPORTED error and conformant resolution result"
@@ -4837,13 +4837,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 2796,
+                "_idleStart": 4379,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Determine%20whether%20the%20DID%20method%20of%20the%20input%20DID%20is%20supported%20by%20the%20DID%20resolver%20that%20implements%20this%20algorithm.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 26,
+              "duration": 70,
               "state": "failed",
               "err": {
                 "actual": "METHOD_NOT_SUPPORTED",
@@ -4869,9 +4869,9 @@
               "_currentRetry": 0,
               "pending": false,
               "file": "/home/runner/work/did-resolution-mocha-test-suite/did-resolution-mocha-test-suite/tests/4-did-resolution.js",
-              "parent": "Yn0wAGjFDWmpMcm1JAcna",
+              "parent": "Ji5V_bUKkAx9Tq8N7TCbp",
               "ctx": null,
-              "_testId": "urn:uuid:a153eba9-1676-4007-ab96-d9f6ecbc8efc",
+              "_testId": "urn:uuid:f773222e-a8e6-4b8e-8957-dabb0ae63eab",
               "cell": {
                 "columnId": "Digital Bazaar, Inc.",
                 "rowId": "If the DID method is not supported, produces a METHOD_NOT_SUPPORTED error and conformant resolution result"
@@ -4882,13 +4882,13 @@
                 "_idleTimeout": -1,
                 "_idlePrev": null,
                 "_idleNext": null,
-                "_idleStart": 3618,
+                "_idleStart": 5572,
                 "_onTimeout": null,
                 "_repeat": null,
                 "_destroyed": true
               },
               "link": "https://w3c.github.io/did-resolution/#types:~:text=Determine%20whether%20the%20DID%20method%20of%20the%20input%20DID%20is%20supported%20by%20the%20DID%20resolver%20that%20implements%20this%20algorithm.%20If%20not%2C%20the%20DID%20resolver%20MUST%20return%20the%20following%20result%3A",
-              "duration": 59,
+              "duration": 78,
               "state": "failed",
               "err": {}
             }
