@@ -48,12 +48,6 @@ for the resolver to resolve that DID.
 See the example below:
 
 ```json
-  "issuers": [{
-    // ... issuer settings here
-  }],
-  "verifiers": [{
-    // ... verifier settings here
-  }],
   "didResolvers": [{
     "id": "...",
     "endpoint": "...",
